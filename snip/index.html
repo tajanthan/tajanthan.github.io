@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>SNIP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">SNIP</h1>
+      <h2 class="project-tagline"><strong>Single-shot Network Pruning based on Connection Sensitivity</strong></br>
+      Namhoon Lee, Thalaiyasingam Ajanthan, Philip H.S. Torr</h2>
+      <a href="docs/snip.pdf" class="btn">pdf</a>
+      <!--<a href="docs/memf_poster.pdf" class="btn">poster</a>-->
+      <!--<a href="https://github.com/oval-group/DenseCRF" class="btn">code</a>-->
+    </section>
+
+    <section class="main-content">
+      
+
+<h2 id="abstract">Abstract</h2>
+<p>
+Pruning large neural networks while maintaining the performance is often highly desirable due to the reduced space and time complexity. In existing methods, pruning is incorporated within an iterative optimization procedure with either heuristically designed pruning schedules or additional hyperparameters, undermining their utility. In this work, we present a new approach that prunes a given network once at initialization. Specifically, we introduce a saliency criterion based on connection sensitivity that identifies structurally important connections in the network for the given task even before training. This eliminates the need for both pretraining as well as the complex pruning schedule while making it robust to architecture variations. After pruning, the sparse network is trained in the standard way. Our method obtains extremely sparse networks with virtually the same accuracy as the reference network on image classification tasks and is broadly applicable to various architectures including convolutional, residual and recurrent networks. Unlike existing methods, our approach enables us to demonstrate that the retained connections are indeed relevant to the given task.
+</p>
+<h2 id="publication">Publication</h2>
+<p>SNIP: Single-shot Network Pruning based on Connection Sensitivity.<br />
+Namhoon Lee, <strong>Thalaiyasingam Ajanthan</strong>, Philip H.S. Torr.<br />
+Arxiv Preprint: arXiv:1810.02340, October 2018.</p>
+<p>[<a href="docs/snip.pdf" title="pdf">pdf</a>] 
+<!--    [<a href="docs/lpdensecrf_supp.pdf" title="supp">supplementary</a>]-->
+[<a href="https://arxiv.org/abs/1810.02340" title="arxiv">arxiv</a>] 
+<!--[<a href="https://github.com/oval-group/DenseCRF" title="code">code</a>] -->
+
+      <footer class="site-footer">
+          <span class="site-footer-owner">
+            <a href="https://tajanthan.github.io/#research">
+                User profile</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
