@@ -2602,3 +2602,9 @@
 				}
 
 	}
+.bibBlock {
+    padding: 2px;
+    font: 9pt courier, serif;
+    color: #000000;
+    background-color: #efefef;
+}
