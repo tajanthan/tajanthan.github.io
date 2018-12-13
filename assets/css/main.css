@@ -2221,6 +2221,7 @@
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+				opacity: 1;
 			}
 
 			#main > section.two {
@@ -2608,3 +2609,5 @@
     color: #000000;
     background-color: #efefef;
 }
+
+
