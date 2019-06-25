@@ -243,3 +243,9 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+.bibBlock {
+    padding: 2px;
+    font: 9pt courier, serif;
+    color: #000000;
+    background-color: #efefef;
+}
