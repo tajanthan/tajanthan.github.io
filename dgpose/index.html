@@ -13,8 +13,13 @@
     <section class="page-header">
       <h1 class="project-name">DGPose</h1>
       <h2 class="project-tagline"><strong>Deep Generative Models for Human Body Analysis</strong></br>
+<<<<<<< HEAD
       Rodrigo de Bem, Arnab Ghosh, Thalaiyasingam Ajanthan, Ondrej Miksik, Adnane Boukhayma, N. Siddharth, Philip H. S. Torr</h2>
       <!--<a href="docs/dgpose.pdf" class="btn">pdf</a>-->
+=======
+      Rodrigo de Bem, Arnab Ghosh, Thalaiyasingam Ajanthan, Ondrej Miksik, Adnane Boukhayma, N. Siddharth, Philip H.S. Torr</h2>
+      <a href="docs/dgpose-ijcv.pdf" class="btn">pdf</a>
+>>>>>>> 0744edf... 1. pdfs and poster
       <!--<a href="docs/memf_poster.pdf" class="btn">poster</a>-->
       <!--<a href="https://github.com/oval-group/DenseCRF" class="btn">code</a>-->
     </section>
@@ -27,8 +32,9 @@ Rodrigo de Bem, Arnab Ghosh, <strong>Thalaiyasingam Ajanthan</strong>, Ondrej Mi
 ECCV Workshop on Human Behaviour Understanding, September 2018. (<strong>oral</strong>)</p>
 <h3 id="abstract">Abstract</h3>
 <p>
-Deep generative modelling for human body analysis is an emerging problem with many interesting applications. However, the latent space learned by such models is typically not interpretable, resulting in less flexible models. In this work, we adopt a structured semi-supervised approach and present a deep generative model for human body analysis where the body pose and the visual appearance are disentangled in the latent space. Such a disentanglement allows independent manipulation of pose and appearance, and hence enables applications such as pose-transfer without being explicitly trained for such a task. In addition, our setting allows for semi-supervised pose estimation, relaxing the need for labelled data. We demonstrate the capabilities of our generative model on the Human3.6M and on the DeepFashion datasets.
+Deep generative modelling for human body analysis is an emerging problem with many interesting applications. However, the latent space learned by such approaches is typically not interpretable, resulting in less flexibility. In this work, we present deep generative models for human body analysis in which the body pose and the visual appearance are disentangled. Such a disentanglement allows independent manipulation of pose and appearance, and hence enables applications such as pose-transfer without specific training for such a task. Our proposed models, the Conditional-DGPose and the Semi-DGPose, have different characteristics. In the first, body pose labels are taken as conditioners, from a fully-supervised training set. In the second, our structured semi-supervised approach allows for pose estimation to be performed by the model itself and relaxes the need for labelled data. Therefore, the Semi-DGPose aims for the joint understanding and generation of people in images. It is not only capable of mapping images to interpretable latent representations but also able to map these representations back to the image space. We compare our models with relevant baselines, the ClothNet-Body and the Pose Guided Person Generation networks, demonstrating their merits on the Human3.6M, ChictopiaPlus and DeepFashion benchmarks.
 </p>
+<<<<<<< HEAD
 <p>[<a href="docs/semidgpose.pdf" title="pdf">pdf</a>] 
 <!--    [<a href="docs/lpdensecrf_supp.pdf" title="supp">supplementary</a>]-->
 [<a href="https://arxiv.org/abs/1804.06364" title="arxiv">arxiv</a>] 
@@ -65,6 +71,27 @@ We propose a deep generative model of humans in natural images which keeps 2D po
 }</pre>
 </p>
 
+=======
+<h2 id="publication">Publications</h2>
+<p>DGPose: Deep Generative Models for Human Body Analysis.<br />
+Rodrigo de Bem, Arnab Ghosh, <strong>Thalaiyasingam Ajanthan</strong>, Ondrej Miksik, Adnane Boukhayma, N. Siddharth, Philip H.S. Torr.<br />
+International Journal of Computer Vision (IJCV), February 2020.</p>
+<p>[<a href="docs/dgpose-ijcv.pdf" title="pdf">pdf</a>] </p>
+
+<p>A Conditional Deep Generative Model of People in Natural Images.<br />
+Rodrigo de Bem, Arnab Ghosh, Adnane Boukhayma, <strong>Thalaiyasingam Ajanthan</strong>, N. Siddharth, Philip H.S. Torr.<br />
+Winter Conference on Applications of Computer Vision (WACV), January 2019.</p>
+<p>[<a href="docs/dgpose-wacv.pdf" title="pdf">pdf</a>] </p>
+
+<p>A Semi-supervised Deep Generative Model for Human Body Analysis.<br />
+Rodrigo de Bem, Arnab Ghosh, <strong>Thalaiyasingam Ajanthan</strong>, Ondrej Miksik, N. Siddharth, Philip H.S. Torr.<br />
+ECCV Workshop on Human Behaviour Understanding, September 2018. <font color="red">(oral)</font></p>
+<p>[<a href="docs/dgpose-eccv.pdf" title="pdf">pdf</a>] 
+<!--    [<a href="docs/lpdensecrf_supp.pdf" title="supp">supplementary</a>]-->
+[<a href="https://arxiv.org/abs/1804.06364" title="arxiv">arxiv</a>] 
+<!--[<a href="https://github.com/oval-group/DenseCRF" title="code">code</a>] -->
+</p>
+>>>>>>> 0744edf... 1. pdfs and poster
       <footer class="site-footer">
           <span class="site-footer-owner">
             <a href="../index.html#research">
