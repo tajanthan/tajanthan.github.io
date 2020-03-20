@@ -1,6 +1,7 @@
+$("#slideshow > img:gt(0)").hide();
 
 setInterval(function() {
-  $('#slideshow > div:first')
+  $('#slideshow > img:first')
     .fadeOut()
     .next()
     .fadeIn()

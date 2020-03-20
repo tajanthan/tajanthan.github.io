@@ -2611,9 +2611,11 @@
 }
 #slideshow {
   position: relative;
+  width: 100%;
 }
-#slideshow > div {
-  position: absolute;
+#slideshow > img {
+  position: relative;
+  width: 100%;
 }
 
 
