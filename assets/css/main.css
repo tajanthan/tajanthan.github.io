@@ -2609,5 +2609,11 @@
     color: #000000;
     background-color: #efefef;
 }
+#slideshow {
+  position: relative;
+}
+#slideshow > div {
+  position: absolute;
+}
 
 
