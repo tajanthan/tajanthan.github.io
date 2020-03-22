@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>MRF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Markov Random Fields Optimization</h1>
+	  <h2 class="project-tagline">
+      <strong>Thalaiyasingam Ajanthan<sup>1</sup>, Alban Desmaison<sup>2</sup>, Rudy Bunel<sup>2</sup>, Thomas Joy<sup>2</sup>, Zhiwei Xu<sup>1</sup>, Mathieu Salzmann<sup>3</sup>, Hongdong Li<sup>1</sup>, Pushmeet Kohli<sup>4</sup>, Pawan M. Kumar<sup>2</sup>, Philip H. S. Torr<sup>2</sup>, and Richard Hartley<sup>1</sup></strong>
+	  </h2>
+	  <h2 class="project-tagline">
+	  <sup>1</sup> Australian National University, <sup>2</sup> University of Oxford, <sup>3</sup> EPFL, <sup>4</sup> Deepmind</h2>
+    </section>
+
+    <section class="main-content">
+      
+
+<h2 id="abstract">Abstract</h2>
+<div>
+A large variety of computer vision tasks can be formulated using Markov Random Fields (MRFs). Except in certain special cases, optimizing an MRF is intractable, due to a large number of variables and complex dependencies between them. In this project, we develop new algorithms to perform inference in MRFs, that are either more efficient (in terms of running time and/or memory usage) or more effective (in terms of solution quality), and make steps towards incorporating sophisticated MRF optimization algorithms in an end-to-end learning framework.
+</div>
+
+<h2 id="publications">Publications</h2>
+<div>
+Fast and Differentiable Message Passing for Stereo Vision.<br />
+Zhiwei Xu, <strong>Thalaiyasingam Ajanthan</strong>, and Richard Hartley.<br />
+arXiv:1910.10892, March 2020.<br/>
+[<a href="docs/fdmp.pdf" title="pdf">pdf</a>] 
+<!--[<a href="docs/pmf-supp.pdf" title="supp">supplementary</a>]-->
+[<a href="https://arxiv.org/abs/1910.10892" title="arxiv">arxiv</a>]
+<!--[<a href="https://github.com/tajanthan/pmf" title="code">code</a>]-->
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{xu_trwp_arxiv19,
+  author = {Xu, Zhiwei, and Ajanthan, Thalaiyasingam, and Hartley, Richard},
+  title = {Fast and Differentiable Message Passing for Stereo Vision},
+  journal = {CoRR},
+  year = {2019}
+}
+</div></br>
+
+<div>Generalized Range Moves.</br> 
+Richard Hartley, and <strong>Thalaiyasingam Ajanthan</strong>.</br> 
+arXiv:1811.09171, November 2018.<br/>
+[<a href="docs/gswap.pdf" title="pdf">pdf</a>] 
+[<a href="https://arxiv.org/abs/1811.09171" title="arxiv">arxiv</a>] 
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{hartley_gswap_arxiv18,
+  author = {Hartley, Richard and Ajanthan, Thalaiyasingam},
+  title = {Generalized Range Moves},
+  journal = {CoRR},
+  year = {2018}
+}</pre>
+</div></br>
+
+<div>Efficient Relaxations for Dense CRFs with Sparse Higher Order Potentials.<br />
+Thomas Joy*, Alban Desmaison*, <strong>Thalaiyasingam Ajanthan</strong>*, Rudy Bunel, Mathieu Salzmann, Pushmeet Kohli, Philip H.S. Torr, and M. Pawan Kumar.<br />
+SIAM Journal on Imaging Sciences (SIIMS), November 2018.<br/>
+[<a href="docs/higherorder.pdf" title="pdf">pdf</a>] 
+[<a href="https://arxiv.org/abs/1805.09028" title="arxiv">arxiv</a>] 
+[<a href="https://github.com/thwjoy/densecrf_ho" title="code">code</a>]
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{joy_higherorder_siam2018,
+  title={Efficient Relaxations for Dense {CRFs} with Sparse Higher Order Potentials},
+  author={Joy, Thomas and Desmaison, Alban and Ajanthan, Thalaiyasingam and Bunel, Rudy and Salzmann, Mathieu and Kohli, Pushmeet and Torr, Philip HS and Kumar, M Pawan},
+  journal={SIIMS},
+  year={2019}
+}</pre>
+</div></br>
+
+<div>Memory Efficient Max Flow for Multi-label Submodular MRFs.<br />
+<strong>Thalaiyasingam Ajanthan</strong>, Richard Hartley, and Mathieu Salzmann.<br />
+IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), February 2018.<br/>
+[<a href="docs/memf_pami.pdf" title="pdf">pdf</a>] 
+[<a href="https://arxiv.org/abs/1702.05888" title="arxiv">arxiv</a>] 
+<!--[<a href="https://github.com/tajanthan/memf" title="code">code</a>]-->
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{ajanthan_memf_pami2018,
+  title={Memory Efficient Max Flow for Multi-label Submodular {MRFs}},
+  author={Ajanthan, Thalaiyasingam and Hartley, Richard and Salzmann, Mathieu},
+  journal={PAMI},
+  year={2018}
+}</pre>
+</div></br>
+
+<div>Efficient Linear Programming for Dense CRFs.<br />
+<strong>Thalaiyasingam Ajanthan</strong>, Alban Desmaison, Rudy Bunel, Mathieu Salzmann, Philip H.S. Torr, and M. Pawan Kumar.<br />
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), July 2017.<br/>
+[<a href="docs/lpdensecrf.pdf" title="pdf">pdf</a>] 
+[<a href="docs/lpdensecrf_supp.pdf" title="supp">supplementary</a>]
+[<a href="https://arxiv.org/abs/1611.09718" title="arxiv">arxiv</a>] 
+[<a href="docs/lpdensecrf_poster.pdf" title="poster">poster</a>]
+[<a href="docs/lpdensecrf_talk.pdf" title="talk">talk</a>]
+[<a href="https://github.com/oval-group/DenseCRF" title="code">code</a>] 
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{ajanthan_proxlp_cvpr2017,
+  title={Efficient linear programming for dense {CRFs}},
+  author={Ajanthan, Thalaiyasingam and Desmaison, Alban and Bunel, Rudy and Salzmann, Mathieu and Torr, Philip HS and Kumar, M Pawan},
+  journal={CVPR},
+  year={2017}
+}</pre>
+</div></br>
+
+<div>Memory Efficient Max Flow for Multi-label Submodular MRFs.<br />
+<strong>Thalaiyasingam Ajanthan</strong>, Richard Hartley, and Mathieu Salzmann.<br />
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2016.<br/>
+[<a href="docs/memf.pdf" title="pdf">pdf</a>] 
+[<a href="docs/memf_supp.pdf" title="supplementary">supplementary</a>] 
+[<a href="docs/memf_poster.pdf" title="poster">poster</a>] 
+[<a href="docs/memf_talk.pdf" title="talk">talk</a>]
+[<a href="https://github.com/tajanthan/memf" title="code">code</a>]
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{ajanthan_memf_pami2018,
+  title={Memory Efficient Max Flow for Multi-label Submodular {MRFs}},
+  author={Ajanthan, Thalaiyasingam and Hartley, Richard and Salzmann, Mathieu},
+  journal={CVPR},
+  year={2016}
+}</pre>
+</div></br>
+
+<div>Iteratively Reweighted Graph Cut for Multi-label MRFs with Non-convex Priors.</br> 
+<strong>Thalaiyasingam Ajanthan</strong>, Richard Hartley, Mathieu Salzmann, and Hongdong Li.</br> 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2015.<br/>
+[<a href="docs/irgc.pdf" title="pdf">pdf</a>] 
+[<a href="https://arxiv.org/abs/1411.6340" title="arxiv">arxiv</a>] 
+[<a href="docs/irgc_poster.pdf" title="poster">poster</a>] 
+[<a href="https://github.com/tajanthan/irgc" title="code">code</a>]
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{ajanthan_irgc_cvpr2015,
+  title={Iteratively Reweighted Graph Cut for Multi-label {MRFs} with Non-convex Priors},
+  author={Ajanthan, Thalaiyasingam and Hartley, Richard and Salzmann, Mathieu and Li, Hongdong},
+  journal={CVPR},
+  year={2015}
+}</pre>
+</div></br>
+
+<h2 id="thesis">Thesis</h2>
+<div>Optimization of Markov Random Fields in Computer Vision.<br />
+<strong>Thalaiyasingam Ajanthan</strong>.<br />
+PhD Thesis, May 2017.<br/>
+[<a href="docs/Ajanthan_PhD_Thesis.pdf" title="pdf">pdf</a>] 
+[<a href="docs/mrf-opt-talk.pdf" title="talk">talk</a>]
+[<a href="" class="bibLink">bib</a>]
+<pre class="bibBlock" style="display: none;">
+@article{ajanthan_thesis_2017,
+  title={Optimization of {M}arkov Random Fields in Computer Vision},
+  author={Ajanthan, Thalaiyasingam},
+  journal={ANU PhD Thesis},
+  year={2017}
+}</pre>
+</div>
+
+
+      <footer class="site-footer">
+	  <p>* Equal contribution.</p>
+          <span class="site-footer-owner">
+            <a href="../index.html#research">
+                User profile</a>.</span>
+      </footer>
+
+    </section>
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/bib.js" type="text/javascript"></script>
+  
+  </body>
+</html>
