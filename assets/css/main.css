@@ -1,6 +1,6 @@
-@import url("font-awesome.min.css");
+@import url("font-awesome.min.old.css");
 /*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");*/
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+pro:800,600italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 
 @import url("academicons.min.css");
 @import url("academicons.css");
@@ -1556,9 +1556,10 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 		font-size: 19pt;
-		font-weight: 300;
+		/*font-weight: 300;*/
+		font-weight: normal;
 		line-height: 1.75em;
 		color: #888;
 	}
@@ -1575,15 +1576,17 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 		font-size: 19pt;
-		font-weight: 300;
+		/*font-weight: 300;*/
+		font-weight: normal;
 		line-height: 1.75em;
 		color: #888;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		/*font-weight: 300;*/
+		font-weight: normal;
 		color: #666;
 		line-height: 1.5em;
 	}
@@ -1627,7 +1630,8 @@
 	}
 
 	strong, b {
-		font-weight: 300;
+		/*font-weight: 300;*/
+		font-weight: normal;
 		color: #666;
 	}
 
@@ -2083,6 +2087,7 @@
 		#logo h1 {
 			position: relative;
 			color: #fff;
+			/*font-weight: 600;*/
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
@@ -2562,7 +2567,8 @@
 			h2 {
 				font-size: 1.5em;
 				letter-spacing: 0;
-				font-weight: 300;
+				/*font-weight: 300;*/
+				font-weight: normal;
 			}
 
 			.container {
