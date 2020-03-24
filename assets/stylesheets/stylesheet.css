@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+
 * {
   box-sizing: border-box; }
 
@@ -243,9 +245,3 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
-.bibBlock {
-    padding: 2px;
-    font: 9pt courier, serif;
-    color: #000000;
-    background-color: #efefef;
-}
