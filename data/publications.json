@@ -1,0 +1,1453 @@
+[
+  {
+    "id": "avraham_agora_arxiv26",
+    "title": "Agora: Collective and Permissionless Internet-Scale Pretraining of Large Language Models",
+    "authors": [
+      "Gil Avraham*",
+      "Violetta Shevchenko*",
+      "Hadi Mohaghegh Dolatabadi*",
+      "Karol Pajak*",
+      "James Snewin",
+      "Harry Xi",
+      "Rodney O'Donnell",
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Chamin Hewa Koneputugodage",
+      "Shamane Siriwardhana",
+      "Alexander Long"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "topics": ["pl", "decentralized", "asyncopt", "comm", "pipeline"],
+    "links": {
+      "paper": "/publications/docs/2607.13332.pdf",
+      "arxiv": "https://arxiv.org/abs/2607.13332",
+      "code": "https://github.com/PluralisResearch/agora"
+    },
+    "sources": [
+      "https://arxiv.org/abs/2607.13332"
+    ],
+    "bibtex": "@article{avraham_agora_arxiv26,\n  title={{Agora: Collective and Permissionless Internet-Scale Pretraining of Large Language Models}},\n  author={Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Pajak, Karol and Snewin, James and Xi, Harry and O'Donnell, Rodney and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Hewa Koneputugodage, Chamin and Siriwardhana, Shamane and Long, Alexander},\n  year={2026},\n  journal={arXiv},\n  eprint={2607.13332},\n  archiveprefix={arXiv},\n  url={https://arxiv.org/abs/2607.13332}\n}",
+    "verified": "2026-09-23"
+  },
+  {
+    "id": "ajanthan_asyncmesh_arxiv26",
+    "title": "AsyncMesh: Fully Asynchronous Optimization for Data and Pipeline Parallelism",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Gil Avraham",
+      "Hadi Mohaghegh Dolatabadi",
+      "Chamin P Hewa Koneputugodage",
+      "Violetta Shevchenko",
+      "Yan Zuo",
+      "Alexander Long"
+    ],
+    "year": 2026,
+    "venue": "NeurIPS 2026",
+    "type": "conference",
+    "topics": ["pl", "decentralized", "asyncopt", "pipeline", "comm"],
+    "links": {
+      "paper": "/publications/docs/2601.22442.pdf",
+      "arxiv": "https://arxiv.org/abs/2601.22442",
+      "code": "https://github.com/PluralisResearch/AsyncMesh"
+    },
+    "sources": [
+      "https://arxiv.org/abs/2601.22442"
+    ],
+    "bibtex": "@inproceedings{ajanthan_asyncmesh_arxiv26,\n  title={{AsyncMesh: Fully Asynchronous Optimization for Data and Pipeline Parallelism}},\n  author={Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Avraham, Gil and Mohaghegh Dolatabadi, Hadi and P Hewa Koneputugodage, Chamin and Shevchenko, Violetta and Zuo, Yan and Long, Alexander},\n  year={2026},\n  booktitle={NeurIPS}\n}",
+    "verified": "2026-09-23",
+    "selected": 1
+  },
+  {
+    "id": "ramasinghe_llm_adaptation_arxiv26",
+    "title": "Communication-Efficient LLM Adaptation over Decentralized GPU Meshes",
+    "authors": [
+      "Sameera Ramasinghe",
+      "Shamane Siriwardhana",
+      "Thalaiyasingam Ajanthan",
+      "Hadi Mohaghegh Dolatabadi",
+      "Chamin P Hewa Koneputugodage",
+      "Gil Avraham",
+      "Violetta Shevchenko",
+      "James Snewin",
+      "Karol Pajak",
+      "Harry Xi",
+      "Alexander Long"
+    ],
+    "year": 2026,
+    "venue": "NeurIPS 2026",
+    "type": "conference",
+    "primarySupervision": true,
+    "topics": ["pl", "decentralized", "asyncopt", "comm", "pipeline"],
+    "links": {
+      "paper": "/publications/docs/2609.14339.pdf",
+      "arxiv": "https://arxiv.org/abs/2609.14339"
+    },
+    "sources": [
+      "https://arxiv.org/abs/2609.14339"
+    ],
+    "bibtex": "@inproceedings{ramasinghe_llm_adaptation_arxiv26,\n  title={{Communication-Efficient LLM Adaptation over Decentralized GPU Meshes}},\n  author={Ramasinghe, Sameera and Siriwardhana, Shamane and Ajanthan, Thalaiyasingam and Mohaghegh Dolatabadi, Hadi and P Hewa Koneputugodage, Chamin and Avraham, Gil and Shevchenko, Violetta and Snewin, James and Pajak, Karol and Xi, Harry and Long, Alexander},\n  year={2026},\n  booktitle={NeurIPS}\n}",
+    "verified": "2026-09-23"
+  },
+  {
+    "id": "koneputugodage_factored_gossip_icml26",
+    "title": "Factored Gossip DiLoCo: Reducing Blocking Communication in DiLoCo",
+    "authors": [
+      "Chamin Hewa Koneputugodage",
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Hadi Mohaghegh Dolatabadi",
+      "Shamane Siriwardhana",
+      "Gil Avraham",
+      "Violetta Shevchenko",
+      "Karol Pajak",
+      "James Snewin",
+      "Alexander Long"
+    ],
+    "year": 2026,
+    "venue": "ICML",
+    "type": "conference",
+    "topics": ["pl", "decentralized", "comm"],
+    "links": {
+      "paper": "/publications/docs/2606.22768.pdf",
+      "arxiv": "https://arxiv.org/abs/2606.22768",
+      "blog": "https://pluralis.ai/blog/factored-gossip-diloco/"
+    },
+    "sources": [
+      "https://arxiv.org/abs/2606.22768",
+      "https://pluralis.ai/blog/factored-gossip-diloco/"
+    ],
+    "bibtex": "@inproceedings{koneputugodage_factored_gossip_icml26,\n  title={{Factored Gossip DiLoCo: Reducing Blocking Communication in DiLoCo}},\n  author={Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Mohaghegh Dolatabadi, Hadi and Siriwardhana, Shamane and Avraham, Gil and Shevchenko, Violetta and Pajak, Karol and Snewin, James and Long, Alexander},\n  year={2026},\n  booktitle={ICML}\n}",
+    "verified": "2026-09-23"
+  },
+  {
+    "id": "dolatabadi_numuon_arxiv26",
+    "title": "NuMuon: Nuclear-Norm-Constrained Muon for Compressible LLM Training",
+    "authors": [
+      "Hadi Mohaghegh Dolatabadi",
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Chamin P Hewa Koneputugodage",
+      "Shamane Siriwardhana",
+      "Violetta Shevchenko",
+      "Karol Pajak",
+      "James Snewin",
+      "Gil Avraham",
+      "Alexander Long"
+    ],
+    "year": 2026,
+    "venue": "NeurIPS 2026",
+    "type": "conference",
+    "topics": [
+      "nno",
+      "dlt",
+      "lowrank"
+    ],
+    "links": {
+      "paper": "/publications/docs/2603.03597.pdf",
+      "arxiv": "https://arxiv.org/abs/2603.03597"
+    },
+    "sources": [
+      "https://arxiv.org/abs/2603.03597"
+    ],
+    "bibtex": "@inproceedings{dolatabadi_numuon_arxiv26,\n  title={{NuMuon: Nuclear-Norm-Constrained Muon for Compressible LLM Training}},\n  author={Mohaghegh Dolatabadi, Hadi and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and P Hewa Koneputugodage, Chamin and Siriwardhana, Shamane and Shevchenko, Violetta and Pajak, Karol and Snewin, James and Avraham, Gil and Long, Alexander},\n  year={2026},\n  booktitle={NeurIPS}\n}",
+    "verified": "2026-09-23"
+  },
+  {
+    "id": "dolatabadi_sentinel_arxiv26",
+    "title": "SENTINEL: Stagewise Integrity Verification for Pipeline Parallel Decentralized Training",
+    "authors": [
+      "Hadi Mohaghegh Dolatabadi",
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Chamin P Hewa Koneputugodage",
+      "Gil Avraham",
+      "Yan Zuo",
+      "Violetta Shevchenko",
+      "Alexander Long"
+    ],
+    "year": 2026,
+    "venue": "arXiv",
+    "type": "preprint",
+    "topics": ["pl", "decentralized", "pipeline", "verify"],
+    "links": {
+      "paper": "/publications/docs/2603.03592.pdf",
+      "arxiv": "https://arxiv.org/abs/2603.03592"
+    },
+    "sources": [
+      "https://arxiv.org/abs/2603.03592"
+    ],
+    "bibtex": "@article{dolatabadi_sentinel_arxiv26,\n  title={{SENTINEL: Stagewise Integrity Verification for Pipeline Parallel Decentralized Training}},\n  author={Mohaghegh Dolatabadi, Hadi and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and P Hewa Koneputugodage, Chamin and Avraham, Gil and Zuo, Yan and Shevchenko, Violetta and Long, Alexander},\n  year={2026},\n  journal={arXiv},\n  eprint={2603.03592},\n  archiveprefix={arXiv},\n  url={https://arxiv.org/abs/2603.03592}\n}",
+    "verified": "2026-09-23"
+  },
+  {
+    "id": "ramasinghe_archwp_iclr26",
+    "title": "Taming Curvature: Architecture Warm-up for Stable Transformer Training",
+    "authors": [
+      "Sameera Ramasinghe",
+      "Thalaiyasingam Ajanthan",
+      "Hadi Mohaghegh Dolatabadi",
+      "Chamin P Hewa Koneputugodage",
+      "Gil Avraham",
+      "Violetta Shevchenko",
+      "Yan Zuo",
+      "Karol Pajak",
+      "Alexander Long"
+    ],
+    "year": 2026,
+    "venue": "ICLR",
+    "type": "conference",
+    "topics": ["nno", "dlt"],
+    "links": {
+      "paper": "/pl/docs/archwp.pdf",
+      "arxiv": "https://arxiv.org/abs/2606.16768"
+    },
+    "bibtex": "@inproceedings{ramasinghe_archwp_iclr26,\n  title={{Taming Curvature: Architecture Warm-up for Stable Transformer Training}},\n  author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Mohaghegh Dolatabadi, Hadi and P Hewa Koneputugodage, Chamin and Avraham, Gil and Shevchenko, Violetta and Zuo, Yan and Pajak, Karol and Long, Alexander},\n  year={2026},\n  booktitle={ICLR}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html",
+      "https://arxiv.org/abs/2606.16768",
+      "https://proceedings.iclr.cc/paper_files/paper/2026/hash/ee8493dfdca7ead9f06c235725f98033-Abstract-Conference.html"
+    ],
+    "verified": "2026-09-23"
+  },
+  {
+    "id": "ramasinghe_beyondtopk_iclr25",
+    "title": "Beyond Top-K: Structured Sparsification for Compression in Pipeline Parallel",
+    "authors": [
+      "Sameera Ramasinghe",
+      "Thalaiyasingam Ajanthan",
+      "Gil Avraham",
+      "Yan Zuo",
+      "Alexander Long"
+    ],
+    "year": 2025,
+    "venue": "ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning",
+    "type": "workshop",
+    "topics": ["pl", "comm", "pipeline"],
+    "links": {
+      "paper": "/pl/docs/beyondtopk.pdf"
+    },
+    "bibtex": "@inproceedings{ramasinghe_beyondtopk_iclr25,\n  title={{Beyond Top-K: Structured Sparsification for Compression in Pipeline Parallel}},\n  author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Avraham, Gil and Zuo, Yan and Long, Alexander},\n  year={2025},\n  booktitle={ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html"
+    ]
+  },
+  {
+    "id": "zuo_asyncswarm_iclr25",
+    "title": "Exploring Asynchronism in SWARM Parallelism",
+    "authors": [
+      "Yan Zuo",
+      "Gil Avraham",
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Alexander Long"
+    ],
+    "year": 2025,
+    "venue": "ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning",
+    "type": "workshop",
+    "topics": ["pl", "decentralized", "asyncopt", "pipeline"],
+    "links": {
+      "paper": "/pl/docs/asyncswarm.pdf"
+    },
+    "bibtex": "@inproceedings{zuo_asyncswarm_iclr25,\n  title={{Exploring Asynchronism in SWARM Parallelism}},\n  author={Zuo, Yan and Avraham, Gil and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Long, Alexander},\n  year={2025},\n  booktitle={ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html"
+    ]
+  },
+  {
+    "id": "wang_hier_iccv25",
+    "title": "Learning Visual Hierarchies with Hyperbolic Embeddings",
+    "authors": [
+      "Ziwei Wang",
+      "Sameera Ramasinghe",
+      "Chenchen Xu",
+      "Julien Monteil",
+      "Loris Bazzani",
+      "Thalaiyasingam Ajanthan"
+    ],
+    "year": 2025,
+    "venue": "ICCV",
+    "type": "conference",
+    "topics": ["representation", "retrieval"],
+    "links": {
+      "paper": "/cv/docs/hier.pdf",
+      "arxiv": "https://arxiv.org/abs/2411.17490"
+    },
+    "bibtex": "@inproceedings{wang_hier_iccv25,\n  title={{Learning Visual Hierarchies with Hyperbolic Embeddings}},\n  author={Wang, Ziwei and Ramasinghe, Sameera and Xu, Chenchen and Monteil, Julien and Bazzani, Loris and Ajanthan, Thalaiyasingam},\n  year={2025},\n  booktitle={ICCV}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html"
+    ],
+    "distinction": "oral"
+  },
+  {
+    "id": "ramasinghe_mixtures_neurips25",
+    "title": "Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training",
+    "authors": [
+      "Sameera Ramasinghe",
+      "Thalaiyasingam Ajanthan",
+      "Hadi Mohaghegh Dolatabadi",
+      "Gil Avraham",
+      "Violetta Shevchenko",
+      "Yan Zuo",
+      "Chamin P Hewa Koneputugodage",
+      "Alexander Long"
+    ],
+    "year": 2025,
+    "venue": "NeurIPS",
+    "type": "conference",
+    "topics": ["pl", "decentralized", "comm", "context", "lowrank"],
+    "links": {
+      "paper": "/pl/docs/mos.pdf",
+      "arxiv": "https://arxiv.org/abs/2606.16384"
+    },
+    "bibtex": "@inproceedings{ramasinghe_mixtures_neurips25,\n  title={{Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training}},\n  author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Mohaghegh Dolatabadi, Hadi and Avraham, Gil and Shevchenko, Violetta and Zuo, Yan and P Hewa Koneputugodage, Chamin and Long, Alexander},\n  year={2025},\n  booktitle={NeurIPS}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html",
+      "https://arxiv.org/abs/2606.16384"
+    ],
+    "verified": "2026-09-23"
+  },
+  {
+    "id": "ajanthan_mla_iclr25",
+    "title": "Momentum Look-Ahead for Asynchronous Distributed Low-Communication Training",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Gil Avraham",
+      "Yan Zuo",
+      "Alexander Long"
+    ],
+    "year": 2025,
+    "venue": "ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning",
+    "type": "workshop",
+    "topics": ["pl", "decentralized", "asyncopt", "comm"],
+    "links": {
+      "paper": "/pl/docs/mla.pdf"
+    },
+    "bibtex": "@inproceedings{ajanthan_mla_iclr25,\n  title={{Momentum Look-Ahead for Asynchronous Distributed Low-Communication Training}},\n  author={Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Avraham, Gil and Zuo, Yan and Long, Alexander},\n  year={2025},\n  booktitle={ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_asyncpp_icml25",
+    "title": "Nesterov Method for Asynchronous Pipeline Parallel Optimization",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Sameera Ramasinghe",
+      "Yan Zuo",
+      "Gil Avraham",
+      "Alexander Long"
+    ],
+    "year": 2025,
+    "venue": "ICML",
+    "type": "conference",
+    "topics": ["pl", "decentralized", "asyncopt", "pipeline"],
+    "links": {
+      "paper": "/pl/docs/asyncpp.pdf",
+      "arxiv": "https://arxiv.org/abs/2505.01099",
+      "code": "https://github.com/PluralisResearch/AsyncPP",
+      "blog": "https://pluralis.ai/blog/asynchronous-pipeline-parallelism/"
+    },
+    "bibtex": "@inproceedings{ajanthan_asyncpp_icml25,\n  title={{Nesterov Method for Asynchronous Pipeline Parallel Optimization}},\n  author={Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Zuo, Yan and Avraham, Gil and Long, Alexander},\n  year={2025},\n  booktitle={ICML}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html"
+    ]
+  },
+  {
+    "id": "duan_instructcir_ijcnn25",
+    "title": "Scaling Prompt Instructed Zero Shot Composed Image Retrieval with Image-Only Data",
+    "authors": [
+      "Yiqun Duan",
+      "Sameera Ramasinghe",
+      "Stephen Gould",
+      "Thalaiyasingam Ajanthan"
+    ],
+    "year": 2025,
+    "venue": "IJCNN",
+    "type": "conference",
+    "topics": ["vl", "retrieval"],
+    "links": {
+      "paper": "/vl/docs/instructcir.pdf",
+      "arxiv": "https://arxiv.org/abs/2504.00812"
+    },
+    "bibtex": "@inproceedings{duan_instructcir_ijcnn25,\n  title={{Scaling Prompt Instructed Zero Shot Composed Image Retrieval with Image-Only Data}},\n  author={Duan, Yiqun and Ramasinghe, Sameera and Gould, Stephen and Ajanthan, Thalaiyasingam},\n  year={2025},\n  booktitle={IJCNN}\n}",
+    "sources": [
+      "publications/index.html",
+      "vl/index.html"
+    ]
+  },
+  {
+    "id": "markou_reduction_neurips25",
+    "title": "Sharper Convergence Rates for Nonconvex Optimisation via Reduction Mappings",
+    "authors": [
+      "Evan Markou",
+      "Thalaiyasingam Ajanthan",
+      "Stephen Gould"
+    ],
+    "year": 2025,
+    "venue": "NeurIPS",
+    "type": "conference",
+    "topics": [
+      "nno"
+    ],
+    "primarySupervision": false,
+    "links": {
+      "paper": "/dlt/docs/reduction.pdf",
+      "arxiv": "https://arxiv.org/abs/2506.08428",
+      "video": "https://www.youtube.com/watch?v=N2FAb7Cr2zs"
+    },
+    "bibtex": "@inproceedings{markou_reduction_neurips25,\n  title={{Sharper Convergence Rates for Nonconvex Optimisation via Reduction Mappings}},\n  author={Markou, Evan and Ajanthan, Thalaiyasingam and Gould, Stephen},\n  year={2025},\n  booktitle={NeurIPS}\n}",
+    "sources": [
+      "publications/index.html",
+      "dlt/index.html"
+    ],
+    "distinction": "spotlight",
+    "selected": 3
+  },
+  {
+    "id": "ramasinghe_protocol_neurips25",
+    "title": "Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism",
+    "authors": [
+      "Sameera Ramasinghe",
+      "Thalaiyasingam Ajanthan",
+      "Gil Avraham",
+      "Yan Zuo",
+      "Alexander Long"
+    ],
+    "year": 2025,
+    "venue": "NeurIPS",
+    "type": "conference",
+    "topics": ["pl", "decentralized", "pipeline", "comm", "lowrank"],
+    "links": {
+      "paper": "/pl/docs/ssn.pdf",
+      "arxiv": "https://arxiv.org/abs/2506.01260"
+    },
+    "bibtex": "@inproceedings{ramasinghe_protocol_neurips25,\n  title={{Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism}},\n  author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Avraham, Gil and Zuo, Yan and Long, Alexander},\n  year={2025},\n  booktitle={NeurIPS}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html"
+    ],
+    "selected": 2
+  },
+  {
+    "id": "long_upms_neurips25",
+    "title": "Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization",
+    "authors": [
+      "Alexander Long*",
+      "Chamin P Hewa Koneputugodage*",
+      "Thalaiyasingam Ajanthan",
+      "Yan Zuo",
+      "Gil Avraham",
+      "Violetta Shevchenko",
+      "Hadi Mohaghegh Dolatabadi",
+      "Sameera Ramasinghe"
+    ],
+    "year": 2025,
+    "venue": "NeurIPS",
+    "type": "conference",
+    "topics": ["pl", "decentralized", "pipeline"],
+    "links": {
+      "paper": "/pl/docs/upm.pdf"
+    },
+    "bibtex": "@inproceedings{long_upms_neurips25,\n  title={{Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization}},\n  author={Long, Alexander and P Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Zuo, Yan and Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Ramasinghe, Sameera},\n  year={2025},\n  booktitle={NeurIPS}\n}",
+    "sources": [
+      "publications/index.html",
+      "pl/index.html"
+    ]
+  },
+  {
+    "id": "ramasinghe_atmg_cvpr24",
+    "title": "Accept the Modality Gap: An Exploration in the Hyperbolic Space",
+    "authors": [
+      "Sameera Ramasinghe",
+      "Violetta Shevchenko",
+      "Gil Avraham",
+      "Thalaiyasingam Ajanthan"
+    ],
+    "year": 2024,
+    "venue": "CVPR",
+    "type": "conference",
+    "topics": [
+      "vl"
+    ],
+    "links": {
+      "paper": "/vl/docs/atmg.pdf",
+      "slides": "/vl/docs/atmg-talk.pptx",
+      "code": "https://github.com/samgregoost/atmg"
+    },
+    "bibtex": "@inproceedings{ramasinghe_atmg_cvpr24,\n  title={{Accept the Modality Gap: An Exploration in the Hyperbolic Space}},\n  author={Ramasinghe, Sameera and Shevchenko, Violetta and Avraham, Gil and Ajanthan, Thalaiyasingam},\n  year={2024},\n  booktitle={CVPR}\n}",
+    "sources": [
+      "publications/index.html",
+      "vl/index.html"
+    ],
+    "distinction": "highlight",
+    "selected": 4
+  },
+  {
+    "id": "markou_gnc_neurips24",
+    "title": "Guiding Neural Collapse: Optimising Towards the Nearest Simplex Equiangular Tight Frame",
+    "authors": [
+      "Evan Markou",
+      "Thalaiyasingam Ajanthan",
+      "Stephen Gould"
+    ],
+    "year": 2024,
+    "venue": "NeurIPS",
+    "type": "conference",
+    "topics": [
+      "dlt",
+      "nno",
+      "neuralcollapse"
+    ],
+    "primarySupervision": false,
+    "links": {
+      "paper": "/dlt/docs/gnc.pdf",
+      "arxiv": "https://arxiv.org/abs/2411.01248",
+      "video": "https://www.youtube.com/watch?v=bcCQBFN4OLM&t=4s",
+      "code": "https://github.com/evanmarkou/Guiding-Neural-Collapse"
+    },
+    "bibtex": "@inproceedings{markou_gnc_neurips24,\n  title={{Guiding Neural Collapse: Optimising Towards the Nearest Simplex Equiangular Tight Frame}},\n  author={Markou, Evan and Ajanthan, Thalaiyasingam and Gould, Stephen},\n  year={2024},\n  booktitle={NeurIPS}\n}",
+    "sources": [
+      "publications/index.html",
+      "dlt/index.html"
+    ]
+  },
+  {
+    "id": "liu_ssldm_iclr24",
+    "title": "Self-Supervision Improves Diffusion Models for Tabular Data Imputation",
+    "authors": [
+      "Yixin Liu",
+      "Thalaiyasingam Ajanthan",
+      "Hisham Husain",
+      "Vu Nguyen"
+    ],
+    "year": 2024,
+    "venue": "ICLR Workshop: Generative Models for Decision Making",
+    "type": "workshop",
+    "topics": [
+      "ssl",
+      "tabular",
+      "gm"
+    ],
+    "links": {
+      "paper": "/tabular/docs/ssldm.pdf"
+    },
+    "bibtex": "@inproceedings{liu_ssldm_iclr24,\n  title={{Self-Supervision Improves Diffusion Models for Tabular Data Imputation}},\n  author={Liu, Yixin and Ajanthan, Thalaiyasingam and Husain, Hisham and Nguyen, Vu},\n  year={2024},\n  booktitle={ICLR Workshop: Generative Models for Decision Making}\n}",
+    "sources": [
+      "publications/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_axbn_arxiv23",
+    "title": "Adaptive Cross Batch Normalization for Metric Learning",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Matt Ma",
+      "Anton van den Hengel",
+      "Stephen Gould"
+    ],
+    "year": 2023,
+    "venue": "arXiv",
+    "type": "preprint",
+    "topics": ["metric"],
+    "links": {
+      "paper": "/cv/docs/axbn.pdf",
+      "arxiv": "https://arxiv.org/abs/2303.17127"
+    },
+    "bibtex": "@article{ajanthan_axbn_arxiv23,\n  title={{Adaptive Cross Batch Normalization for Metric Learning}},\n  author={Ajanthan, Thalaiyasingam and Ma, Matt and van den Hengel, Anton and Gould, Stephen},\n  year={2023},\n  journal={arXiv},\n  eprint={2303.17127},\n  archiveprefix={arXiv},\n  url={https://arxiv.org/abs/2303.17127}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html"
+    ]
+  },
+  {
+    "id": "lu_bsnn_nn23",
+    "title": "Bidirectionally Self-Normalizing Neural Networks",
+    "authors": [
+      "Yao Lu",
+      "Stephen Gould",
+      "Thalaiyasingam Ajanthan"
+    ],
+    "year": 2023,
+    "venue": "NN",
+    "type": "journal",
+    "topics": [
+      "dlt",
+      "spnn"
+    ],
+    "links": {
+      "paper": "/dlt/docs/bsnn.pdf",
+      "arxiv": "https://arxiv.org/abs/2006.12169",
+      "slides": "/dlt/docs/bsnn-talk.pdf"
+    },
+    "bibtex": "@article{lu_bsnn_nn23,\n  title={{Bidirectionally Self-Normalizing Neural Networks}},\n  author={Lu, Yao and Gould, Stephen and Ajanthan, Thalaiyasingam},\n  year={2023},\n  journal={NN}\n}",
+    "sources": [
+      "publications/index.html",
+      "dlt/index.html",
+      "spnn/index.html"
+    ]
+  },
+  {
+    "id": "long_mater_iclr23",
+    "title": "Modality-Aware Adaptation of Contrastive Language-Image Models",
+    "authors": [
+      "Alexander Long",
+      "Thalaiyasingam Ajanthan",
+      "Anton van den Hengel"
+    ],
+    "year": 2023,
+    "venue": "ICLR Workshop: Mathematical and Empirical Understanding of Foundation Models",
+    "type": "workshop",
+    "topics": [
+      "vl"
+    ],
+    "links": {
+      "paper": "/vl/docs/mater.pdf"
+    },
+    "bibtex": "@inproceedings{long_mater_iclr23,\n  title={{Modality-Aware Adaptation of Contrastive Language-Image Models}},\n  author={Long, Alexander and Ajanthan, Thalaiyasingam and van den Hengel, Anton},\n  year={2023},\n  booktitle={ICLR Workshop: Mathematical and Empirical Understanding of Foundation Models}\n}",
+    "sources": [
+      "publications/index.html",
+      "vl/index.html"
+    ]
+  },
+  {
+    "id": "li_dlg_iccv23",
+    "title": "Semi-Supervised Semantic Segmentation under Label Noise via Diverse Learning Groups",
+    "authors": [
+      "Peixia Li",
+      "Pulak Purkait",
+      "Thalaiyasingam Ajanthan",
+      "Majid Abdolshah",
+      "Ravi Garg",
+      "Hisham Husain",
+      "Chenchen Xu",
+      "Stephen Gould",
+      "Wanli Ouyang",
+      "Anton van den Hengel"
+    ],
+    "year": 2023,
+    "venue": "ICCV",
+    "type": "conference",
+    "topics": ["semseg"],
+    "links": {
+      "paper": "/cv/docs/semisup.pdf",
+      "supplement": "/cv/docs/semisup-supp.pdf"
+    },
+    "bibtex": "@inproceedings{li_dlg_iccv23,\n  title={{Semi-Supervised Semantic Segmentation under Label Noise via Diverse Learning Groups}},\n  author={Li, Peixia and Purkait, Pulak and Ajanthan, Thalaiyasingam and Abdolshah, Majid and Garg, Ravi and Husain, Hisham and Xu, Chenchen and Gould, Stephen and Ouyang, Wanli and van den Hengel, Anton},\n  year={2023},\n  booktitle={ICCV}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html"
+    ]
+  },
+  {
+    "id": "rahimi_wsod_wacv22",
+    "title": "Few-shot Weakly-Supervised Object Detection via Directional Statistics",
+    "authors": [
+      "Amirreza Shaban*",
+      "Amir Rahimi*",
+      "Thalaiyasingam Ajanthan",
+      "Byron Boots",
+      "Richard Hartley"
+    ],
+    "year": 2022,
+    "venue": "WACV",
+    "type": "conference",
+    "topics": ["objectdet"],
+    "links": {
+      "paper": "/cv/docs/wsodds.pdf",
+      "supplement": "/cv/docs/wsodds-supp.pdf",
+      "arxiv": "https://arxiv.org/abs/2103.14162"
+    },
+    "bibtex": "@inproceedings{rahimi_wsod_wacv22,\n  title={{Few-shot Weakly-Supervised Object Detection via Directional Statistics}},\n  author={Shaban, Amirreza and Rahimi, Amir and Ajanthan, Thalaiyasingam and Boots, Byron and Hartley, Richard},\n  year={2022},\n  booktitle={WACV}\n}",
+    "sources": [
+      "publications/index.html"
+    ]
+  },
+  {
+    "id": "gupta_iga_aaai22",
+    "title": "Improved Gradient based Adversarial Attacks for Quantized Networks",
+    "authors": [
+      "Kartik Gupta",
+      "Thalaiyasingam Ajanthan"
+    ],
+    "year": 2022,
+    "venue": "AAAI",
+    "type": "conference",
+    "topics": [
+      "nnq",
+      "robustness"
+    ],
+    "links": {
+      "paper": "/nnq/docs/iga.pdf",
+      "arxiv": "https://arxiv.org/abs/2003.13511"
+    },
+    "bibtex": "@inproceedings{gupta_iga_aaai22,\n  title={{Improved Gradient based Adversarial Attacks for Quantized Networks}},\n  author={Gupta, Kartik and Ajanthan, Thalaiyasingam},\n  year={2022},\n  booktitle={AAAI}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnq/index.html",
+      "spnn/index.html"
+    ]
+  },
+  {
+    "id": "denipitiyage_pcrobust_aaai22",
+    "title": "Provable Defense Against Clustering Attacks on 3D Point Clouds",
+    "authors": [
+      "Dishanika Dewani Denipitiyage",
+      "Thalaiyasingam Ajanthan",
+      "Parameswaran Kamalaruban",
+      "Adrian Weller"
+    ],
+    "year": 2022,
+    "venue": "AAAI Workshop: Adversarial Machine Learning and Beyond",
+    "type": "workshop",
+    "topics": ["robustness"],
+    "links": {
+      "paper": "/cv/docs/pcrobust.pdf"
+    },
+    "bibtex": "@inproceedings{denipitiyage_pcrobust_aaai22,\n  title={{Provable Defense Against Clustering Attacks on 3D Point Clouds}},\n  author={Denipitiyage, Dishanika Dewani and Ajanthan, Thalaiyasingam and Kamalaruban, Parameswaran and Weller, Adrian},\n  year={2022},\n  booktitle={AAAI Workshop: Adversarial Machine Learning and Beyond}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html"
+    ]
+  },
+  {
+    "id": "long_rac_cvpr22",
+    "title": "Retrieval Augmented Classification for Long-tail Visual Recognition",
+    "authors": [
+      "Alexander Long",
+      "Wei Yin",
+      "Thalaiyasingam Ajanthan",
+      "Vu Nguyen",
+      "Pulak Purkait",
+      "Ravi Garg",
+      "Alan Blair",
+      "Chunhua Shen",
+      "Anton van den Hengel"
+    ],
+    "year": 2022,
+    "venue": "CVPR",
+    "type": "conference",
+    "primarySupervision": true,
+    "topics": ["retrieval"],
+    "links": {
+      "paper": "/cv/docs/rac.pdf",
+      "arxiv": "https://arxiv.org/abs/2202.11233"
+    },
+    "bibtex": "@inproceedings{long_rac_cvpr22,\n  title={{Retrieval Augmented Classification for Long-tail Visual Recognition}},\n  author={Long, Alexander and Yin, Wei and Ajanthan, Thalaiyasingam and Nguyen, Vu and Purkait, Pulak and Garg, Ravi and Blair, Alan and Shen, Chunhua and van den Hengel, Anton},\n  year={2022},\n  booktitle={CVPR}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html"
+    ]
+  },
+  {
+    "id": "gupta_ssl_neurips22",
+    "title": "Understanding and Improving the Role of Projection Head in Self-Supervised Learning",
+    "authors": [
+      "Kartik Gupta",
+      "Thalaiyasingam Ajanthan",
+      "Anton van den Hengel",
+      "Stephen Gould"
+    ],
+    "year": 2022,
+    "venue": "NeurIPS Workshop: Self-Supervised Learning - Theory and Practice",
+    "type": "workshop",
+    "topics": [
+      "ssl"
+    ],
+    "links": {
+      "paper": "/ssl/docs/ph.pdf"
+    },
+    "bibtex": "@inproceedings{gupta_ssl_neurips22,\n  title={{Understanding and Improving the Role of Projection Head in Self-Supervised Learning}},\n  author={Gupta, Kartik and Ajanthan, Thalaiyasingam and van den Hengel, Anton and Gould, Stephen},\n  year={2022},\n  booktitle={NeurIPS Workshop: Self-Supervised Learning - Theory and Practice}\n}",
+    "sources": [
+      "publications/index.html"
+    ]
+  },
+  {
+    "id": "sasdelli_chaos_dicta21",
+    "title": "A Chaos Theory Approach to Understand Neural Network Optimization",
+    "authors": [
+      "Michele Sasdelli",
+      "Thalaiyasingam Ajanthan",
+      "Tat-Jun Chin",
+      "Gustavo Carneiro"
+    ],
+    "year": 2021,
+    "venue": "DICTA",
+    "type": "conference",
+    "topics": ["nno", "dlt"],
+    "links": {
+      "paper": "/misc/docs/chaos.pdf"
+    },
+    "bibtex": "@inproceedings{sasdelli_chaos_dicta21,\n  title={{A Chaos Theory Approach to Understand Neural Network Optimization}},\n  author={Sasdelli, Michele and Ajanthan, Thalaiyasingam and Chin, Tat-Jun and Carneiro, Gustavo},\n  year={2021},\n  booktitle={DICTA}\n}",
+    "sources": [
+      "publications/index.html"
+    ]
+  },
+  {
+    "id": "gupta_spline_iclr21",
+    "title": "Calibration of Neural Networks using Splines",
+    "authors": [
+      "Kartik Gupta",
+      "Amir Rahimi",
+      "Thalaiyasingam Ajanthan",
+      "Thomas Mensink",
+      "Cristian Sminchisescu",
+      "Richard Hartley"
+    ],
+    "year": 2021,
+    "venue": "ICLR",
+    "type": "conference",
+    "topics": [
+      "nnc"
+    ],
+    "links": {
+      "paper": "/nnc/docs/spline.pdf",
+      "arxiv": "https://arxiv.org/abs/2006.12800"
+    },
+    "bibtex": "@inproceedings{gupta_spline_iclr21,\n  title={{Calibration of Neural Networks using Splines}},\n  author={Gupta, Kartik and Rahimi, Amir and Ajanthan, Thalaiyasingam and Mensink, Thomas and Sminchisescu, Cristian and Hartley, Richard},\n  year={2021},\n  booktitle={ICLR}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnc/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_mdnnq_aistats21",
+    "title": "Mirror Descent View for Neural Network Quantization",
+    "authors": [
+      "Thalaiyasingam Ajanthan*",
+      "Kartik Gupta*",
+      "Philip HS Torr",
+      "Richard Hartley",
+      "Puneet K Dokania"
+    ],
+    "year": 2021,
+    "venue": "AISTATS",
+    "type": "conference",
+    "topics": ["nnq", "dlt"],
+    "links": {
+      "paper": "/nnq/docs/mdnnq.pdf",
+      "supplement": "/nnq/docs/mdnnq-supp.pdf",
+      "arxiv": "https://arxiv.org/abs/1910.08237",
+      "code": "https://github.com/kartikgupta-at-anu/md-bnn"
+    },
+    "bibtex": "@inproceedings{ajanthan_mdnnq_aistats21,\n  title={{Mirror Descent View for Neural Network Quantization}},\n  author={Ajanthan, Thalaiyasingam and Gupta, Kartik and Torr, Philip HS and Hartley, Richard and Dokania, Puneet K},\n  year={2021},\n  booktitle={AISTATS}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnq/index.html"
+    ]
+  },
+  {
+    "id": "lee_dataparallelism_iclr21",
+    "title": "Understanding the Effects of Data Parallelism and Sparsity on Neural Network Training",
+    "authors": [
+      "Namhoon Lee",
+      "Thalaiyasingam Ajanthan",
+      "Philip HS Torr",
+      "Martin Jaggi"
+    ],
+    "year": 2021,
+    "venue": "ICLR",
+    "type": "conference",
+    "topics": [
+      "nnp",
+      "dlt"
+    ],
+    "primarySupervision": false,
+    "links": {
+      "paper": "/nnp/docs/dataparallelism.pdf",
+      "arxiv": "https://arxiv.org/abs/2003.11316"
+    },
+    "bibtex": "@inproceedings{lee_dataparallelism_iclr21,\n  title={{Understanding the Effects of Data Parallelism and Sparsity on Neural Network Training}},\n  author={Lee, Namhoon and Ajanthan, Thalaiyasingam and Torr, Philip HS and Jaggi, Martin},\n  year={2021},\n  booktitle={ICLR}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnp/index.html"
+    ]
+  },
+  {
+    "id": "lee_disnip_iclr20",
+    "title": "A Signal Propagation Perspective for Pruning Neural Networks at Initialization",
+    "authors": [
+      "Namhoon Lee",
+      "Thalaiyasingam Ajanthan",
+      "Stephen Gould",
+      "Philip HS Torr"
+    ],
+    "year": 2020,
+    "venue": "ICLR",
+    "type": "conference",
+    "topics": [
+      "nnp",
+      "spnn"
+    ],
+    "links": {
+      "paper": "/nnp/docs/disnip.pdf",
+      "arxiv": "https://arxiv.org/abs/1906.06307",
+      "video": "https://iclr.cc/virtual_2020/poster_HJeTo2VFwH.html",
+      "code": "https://github.com/namhoonlee/spp-public"
+    },
+    "bibtex": "@inproceedings{lee_disnip_iclr20,\n  title={{A Signal Propagation Perspective for Pruning Neural Networks at Initialization}},\n  author={Lee, Namhoon and Ajanthan, Thalaiyasingam and Gould, Stephen and Torr, Philip HS},\n  year={2020},\n  booktitle={ICLR}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnp/index.html",
+      "spnn/index.html"
+    ],
+    "distinction": "spotlight"
+  },
+  {
+    "id": "debem_dgpose_ijcv2020",
+    "title": "DGPose: Deep Generative Models for Human Body Analysis",
+    "authors": [
+      "Rodrigo De Bem",
+      "Arnab Ghosh",
+      "Thalaiyasingam Ajanthan",
+      "Ondrej Miksik",
+      "Adnane Boukhayma",
+      "Siddharth Narayanaswamy",
+      "Philip HS Torr"
+    ],
+    "year": 2020,
+    "venue": "IJCV",
+    "type": "journal",
+    "topics": ["gm"],
+    "links": {
+      "paper": "/gm/docs/dgpose-ijcv.pdf",
+      "arxiv": "https://arxiv.org/abs/1804.06364"
+    },
+    "bibtex": "@article{debem_dgpose_ijcv2020,\n  title={{DGPose: Deep Generative Models for Human Body Analysis}},\n  author={De Bem, Rodrigo and Ghosh, Arnab and Ajanthan, Thalaiyasingam and Miksik, Ondrej and Boukhayma, Adnane and Narayanaswamy, Siddharth and Torr, Philip HS},\n  year={2020},\n  journal={IJCV}\n}",
+    "sources": [
+      "publications/index.html",
+      "gm/index.html"
+    ]
+  },
+  {
+    "id": "xu_trwp_accv20",
+    "title": "Fast and Differentiable Message Passing on Pairwise Markov Random Fields",
+    "authors": [
+      "Zhiwei Xu",
+      "Thalaiyasingam Ajanthan",
+      "Richard Hartley"
+    ],
+    "year": 2020,
+    "venue": "ACCV",
+    "type": "conference",
+    "topics": ["mrf", "message"],
+    "links": {
+      "paper": "/mrf/docs/fdmp.pdf",
+      "arxiv": "https://arxiv.org/abs/1910.10892",
+      "video": "https://www.youtube.com/watch?v=ZM1SRlVu17E&ab_channel=RabbitDoResearch",
+      "code": "https://github.com/zwxu064/MPLayers"
+    },
+    "bibtex": "@inproceedings{xu_trwp_accv20,\n  title={{Fast and Differentiable Message Passing on Pairwise Markov Random Fields}},\n  author={Xu, Zhiwei and Ajanthan, Thalaiyasingam and Hartley, Richard},\n  year={2020},\n  booktitle={ACCV}\n}",
+    "sources": [
+      "publications/index.html"
+    ],
+    "distinction": "oral"
+  },
+  {
+    "id": "rahimi_wsod_eccv20",
+    "title": "Pairwise Similarity Knowledge Transfer for Weakly Supervised Object Localization",
+    "authors": [
+      "Amir Rahimi*",
+      "Amirreza Shaban*",
+      "Thalaiyasingam Ajanthan",
+      "Richard Hartley",
+      "Byron Boots"
+    ],
+    "year": 2020,
+    "venue": "ECCV",
+    "type": "conference",
+    "topics": ["objectdet"],
+    "links": {
+      "paper": "/cv/docs/wsod.pdf",
+      "arxiv": "https://arxiv.org/abs/2003.08375"
+    },
+    "bibtex": "@inproceedings{rahimi_wsod_eccv20,\n  title={{Pairwise Similarity Knowledge Transfer for Weakly Supervised Object Localization}},\n  author={Rahimi, Amir and Shaban, Amirreza and Ajanthan, Thalaiyasingam and Hartley, Richard and Boots, Byron},\n  year={2020},\n  booktitle={ECCV}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html"
+    ]
+  },
+  {
+    "id": "rahimi_glayers_arxiv20",
+    "title": "Post-hoc Calibration of Neural Networks",
+    "authors": [
+      "Amir Rahimi",
+      "Kartik Gupta",
+      "Thalaiyasingam Ajanthan",
+      "Thomas Mensink",
+      "Cristian Sminchisescu",
+      "Richard Hartley"
+    ],
+    "year": 2020,
+    "venue": "arXiv",
+    "type": "preprint",
+    "topics": ["nnc"],
+    "links": {
+      "paper": "/nnc/docs/glayers.pdf",
+      "arxiv": "https://arxiv.org/abs/2006.12807"
+    },
+    "bibtex": "@article{rahimi_glayers_arxiv20,\n  title={{Post-hoc Calibration of Neural Networks}},\n  author={Rahimi, Amir and Gupta, Kartik and Ajanthan, Thalaiyasingam and Mensink, Thomas and Sminchisescu, Cristian and Hartley, Richard},\n  year={2020},\n  journal={arXiv},\n  eprint={2006.12807},\n  archiveprefix={arXiv},\n  url={https://arxiv.org/abs/2006.12807}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnc/index.html"
+    ]
+  },
+  {
+    "id": "xu_ranp_3dv20",
+    "title": "RANP: Resource Aware Neuron Pruning at Initialization for 3D CNNs",
+    "authors": [
+      "Zhiwei Xu",
+      "Thalaiyasingam Ajanthan",
+      "Vibhav Vineet",
+      "Richard Hartley"
+    ],
+    "year": 2020,
+    "venue": "3DV",
+    "type": "conference",
+    "topics": ["nnp"],
+    "links": {
+      "paper": "/nnp/docs/ranp.pdf",
+      "arxiv": "https://arxiv.org/abs/2010.02488",
+      "video": "https://www.youtube.com/watch?v=KadydhOJnBE&t=71s&ab_channel=RabbitDoResearch",
+      "code": "https://github.com/zwxu064/RANP"
+    },
+    "bibtex": "@inproceedings{xu_ranp_3dv20,\n  title={{RANP: Resource Aware Neuron Pruning at Initialization for 3D CNNs}},\n  author={Xu, Zhiwei and Ajanthan, Thalaiyasingam and Vineet, Vibhav and Hartley, Richard},\n  year={2020},\n  booktitle={3DV}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnp/index.html"
+    ],
+    "distinction": "oral",
+    "awards": ["Best Student Paper"]
+  },
+  {
+    "id": "xu_supseg_arxiv20",
+    "title": "Refining Semantic Segmentation with Superpixel by Transparent Initialization and Sparse Encoder",
+    "authors": [
+      "Zhiwei Xu",
+      "Thalaiyasingam Ajanthan",
+      "Richard Hartley"
+    ],
+    "year": 2020,
+    "venue": "arXiv",
+    "type": "preprint",
+    "primarySupervision": false,
+    "topics": ["semseg"],
+    "links": {
+      "paper": "/cv/docs/supseg.pdf",
+      "arxiv": "https://arxiv.org/abs/2010.04363"
+    },
+    "bibtex": "@article{xu_supseg_arxiv20,\n  title={{Refining Semantic Segmentation with Superpixel by Transparent Initialization and Sparse Encoder}},\n  author={Xu, Zhiwei and Ajanthan, Thalaiyasingam and Hartley, Richard},\n  year={2020},\n  journal={arXiv},\n  eprint={2010.04363},\n  archiveprefix={arXiv},\n  url={https://arxiv.org/abs/2010.04363}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html"
+    ]
+  },
+  {
+    "id": "debem_dgpose_wacv2019",
+    "title": "A Conditional Deep Generative Model of People in Natural Images",
+    "authors": [
+      "Rodrigo De Bem",
+      "Arnab Ghosh",
+      "Adnane Boukhayma",
+      "Thalaiyasingam Ajanthan",
+      "Siddharth Narayanaswamy",
+      "Philip HS Torr"
+    ],
+    "year": 2019,
+    "venue": "WACV",
+    "type": "conference",
+    "topics": ["gm"],
+    "links": {
+      "paper": "/gm/docs/dgpose-wacv.pdf"
+    },
+    "bibtex": "@inproceedings{debem_dgpose_wacv2019,\n  title={{A Conditional Deep Generative Model of People in Natural Images}},\n  author={De Bem, Rodrigo and Ghosh, Arnab and Boukhayma, Adnane and Ajanthan, Thalaiyasingam and Narayanaswamy, Siddharth and Torr, Philip HS},\n  year={2019},\n  booktitle={WACV}\n}",
+    "sources": [
+      "publications/index.html",
+      "gm/index.html"
+    ]
+  },
+  {
+    "id": "chaudhry_tinyer_icml2019",
+    "title": "Continual Learning with Tiny Episodic Memories",
+    "authors": [
+      "Arslan Chaudhry",
+      "Marcus Rohrbach",
+      "Mohamed Elhoseiny",
+      "Thalaiyasingam Ajanthan",
+      "Puneet K Dokania",
+      "Philip HS Torr",
+      "Marc'Aurelio Ranzato"
+    ],
+    "year": 2019,
+    "venue": "ICML Workshop: Multi-Task and Lifelong Reinforcement Learning",
+    "type": "workshop",
+    "topics": ["il"],
+    "links": {
+      "paper": "/il/docs/cler.pdf",
+      "arxiv": "https://arxiv.org/abs/1902.10486"
+    },
+    "bibtex": "@inproceedings{chaudhry_tinyer_icml2019,\n  title={{Continual Learning with Tiny Episodic Memories}},\n  author={Chaudhry, Arslan and Rohrbach, Marcus and Elhoseiny, Mohamed and Ajanthan, Thalaiyasingam and Dokania, Puneet K and Torr, Philip HS and Ranzato, Marc'Aurelio},\n  year={2019},\n  booktitle={ICML Workshop: Multi-Task and Lifelong Reinforcement Learning}\n}",
+    "sources": [
+      "publications/index.html",
+      "il/index.html"
+    ],
+    "citationThreshold": 1500
+  },
+  {
+    "id": "joy_higherorder_siam2018",
+    "title": "Efficient Relaxations for Dense CRFs with Sparse Higher Order Potentials",
+    "authors": [
+      "Thomas Joy*",
+      "Alban Desmaison*",
+      "Thalaiyasingam Ajanthan*",
+      "Rudy Bunel",
+      "Mathieu Salzmann",
+      "Pushmeet Kohli",
+      "Philip HS Torr",
+      "M Pawan Kumar"
+    ],
+    "year": 2019,
+    "venue": "SIIMS",
+    "type": "journal",
+    "topics": [
+      "mrf"
+    ],
+    "links": {
+      "paper": "/mrf/docs/higherorder.pdf",
+      "arxiv": "https://arxiv.org/abs/1805.09028",
+      "code": "https://github.com/thwjoy/densecrf_ho"
+    },
+    "bibtex": "@article{joy_higherorder_siam2018,\n  title={{Efficient Relaxations for Dense CRFs with Sparse Higher Order Potentials}},\n  author={Joy, Thomas and Desmaison, Alban and Ajanthan, Thalaiyasingam and Bunel, Rudy and Salzmann, Mathieu and Kohli, Pushmeet and Torr, Philip HS and Kumar, M Pawan},\n  year={2019},\n  journal={SIIMS}\n}",
+    "sources": [
+      "publications/index.html",
+      "mrf/index.html"
+    ]
+  },
+  {
+    "id": "tonioni_l2a_cvpr19",
+    "title": "Learning to Adapt for Stereo",
+    "authors": [
+      "Alessio Tonioni",
+      "Oscar Rahnama*",
+      "Thomas Joy*",
+      "Luigi Di Stefano",
+      "Thalaiyasingam Ajanthan",
+      "Philip HS Torr"
+    ],
+    "year": 2019,
+    "venue": "CVPR",
+    "type": "conference",
+    "primarySupervision": true,
+    "topics": ["meta", "stereo"],
+    "links": {
+      "paper": "/meta/docs/l2a.pdf",
+      "supplement": "/meta/docs/l2a-supp.pdf",
+      "arxiv": "https://arxiv.org/abs/1904.02957",
+      "code": "https://github.com/CVLAB-Unibo/Learning2AdaptForStereo"
+    },
+    "bibtex": "@inproceedings{tonioni_l2a_cvpr19,\n  title={{Learning to Adapt for Stereo}},\n  author={Tonioni, Alessio and Rahnama, Oscar and Joy, Thomas and Di Stefano, Luigi and Ajanthan, Thalaiyasingam and Torr, Philip HS},\n  year={2019},\n  booktitle={CVPR}\n}",
+    "sources": [
+      "publications/index.html",
+      "meta/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_pmf_iccv19",
+    "title": "Proximal Mean-field for Neural Network Quantization",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Puneet K Dokania",
+      "Richard Hartley",
+      "Philip HS Torr"
+    ],
+    "year": 2019,
+    "venue": "ICCV",
+    "type": "conference",
+    "topics": ["nnq", "dlt"],
+    "links": {
+      "paper": "/nnq/docs/pmf.pdf",
+      "supplement": "/nnq/docs/pmf-supp.pdf",
+      "arxiv": "https://arxiv.org/abs/1812.04353",
+      "slides": "/nnq/docs/pmf-poster.pdf",
+      "code": "https://github.com/tajanthan/pmf"
+    },
+    "bibtex": "@inproceedings{ajanthan_pmf_iccv19,\n  title={{Proximal Mean-field for Neural Network Quantization}},\n  author={Ajanthan, Thalaiyasingam and Dokania, Puneet K and Hartley, Richard and Torr, Philip HS},\n  year={2019},\n  booktitle={ICCV}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnq/index.html"
+    ]
+  },
+  {
+    "id": "lee_snip_iclr19",
+    "title": "SNIP: Single-shot Network Pruning based on Connection Sensitivity",
+    "authors": [
+      "Namhoon Lee",
+      "Thalaiyasingam Ajanthan",
+      "Philip HS Torr"
+    ],
+    "year": 2019,
+    "venue": "ICLR",
+    "type": "conference",
+    "topics": ["nnp"],
+    "links": {
+      "paper": "/nnp/docs/snip.pdf",
+      "arxiv": "https://arxiv.org/abs/1810.02340",
+      "slides": "/nnp/docs/snip-poster.pdf",
+      "code": "https://github.com/namhoonlee/snip-public"
+    },
+    "bibtex": "@inproceedings{lee_snip_iclr19,\n  title={{SNIP: Single-shot Network Pruning based on Connection Sensitivity}},\n  author={Lee, Namhoon and Ajanthan, Thalaiyasingam and Torr, Philip HS},\n  year={2019},\n  booktitle={ICLR}\n}",
+    "sources": [
+      "publications/index.html",
+      "nnp/index.html"
+    ],
+    "selected": 5,
+    "citationThreshold": 2000
+  },
+  {
+    "id": "debem_dgpose_eccv2018",
+    "title": "A Semi-supervised Deep Generative Model for Human Body Analysis",
+    "authors": [
+      "Rodrigo De Bem",
+      "Arnab Ghosh",
+      "Thalaiyasingam Ajanthan",
+      "Ondrej Miksik",
+      "Siddharth Narayanaswamy",
+      "Philip HS Torr"
+    ],
+    "year": 2018,
+    "venue": "ECCV Workshop on Human Behaviour Understanding",
+    "type": "workshop",
+    "topics": ["gm"],
+    "links": {
+      "paper": "/gm/docs/dgpose-eccv.pdf"
+    },
+    "bibtex": "@inproceedings{debem_dgpose_eccv2018,\n  title={{A Semi-supervised Deep Generative Model for Human Body Analysis}},\n  author={De Bem, Rodrigo and Ghosh, Arnab and Ajanthan, Thalaiyasingam and Miksik, Ondrej and Narayanaswamy, Siddharth and Torr, Philip HS},\n  year={2018},\n  booktitle={ECCV Workshop on Human Behaviour Understanding}\n}",
+    "sources": [
+      "gm/index.html"
+    ],
+    "distinction": "oral"
+  },
+  {
+    "id": "hartley_gswap_arxiv18",
+    "title": "Generalized Range Moves",
+    "authors": [
+      "Richard Hartley",
+      "Thalaiyasingam Ajanthan"
+    ],
+    "year": 2018,
+    "venue": "arXiv",
+    "type": "preprint",
+    "topics": ["mrf", "graphcuts"],
+    "links": {
+      "paper": "/mrf/docs/gswap.pdf",
+      "arxiv": "https://arxiv.org/abs/1811.09171"
+    },
+    "bibtex": "@article{hartley_gswap_arxiv18,\n  title={{Generalized Range Moves}},\n  author={Hartley, Richard and Ajanthan, Thalaiyasingam},\n  year={2018},\n  journal={arXiv},\n  eprint={1811.09171},\n  archiveprefix={arXiv},\n  url={https://arxiv.org/abs/1811.09171}\n}",
+    "sources": [
+      "publications/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_memf_pami2018",
+    "title": "Memory Efficient Max Flow for Multi-label Submodular MRFs",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Richard Hartley",
+      "Mathieu Salzmann"
+    ],
+    "year": 2018,
+    "venue": "PAMI",
+    "type": "journal",
+    "topics": ["mrf", "graphcuts"],
+    "links": {
+      "paper": "/mrf/docs/memf_pami.pdf",
+      "supplement": "/mrf/docs/memf_supp.pdf",
+      "slides": "/mrf/docs/memf_talk.pdf",
+      "code": "https://github.com/tajanthan/memf",
+      "arxiv": "https://arxiv.org/abs/1702.05888"
+    },
+    "bibtex": "@article{ajanthan_memf_pami2018,\n  title={{Memory Efficient Max Flow for Multi-label Submodular MRFs}},\n  author={Ajanthan, Thalaiyasingam and Hartley, Richard and Salzmann, Mathieu},\n  year={2018},\n  journal={PAMI}\n}",
+    "sources": [
+      "publications/index.html",
+      "mrf/index.html"
+    ]
+  },
+  {
+    "id": "chaudhry_rwalk_eccv2018",
+    "title": "Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence",
+    "authors": [
+      "Arslan Chaudhry*",
+      "Puneet K Dokania*",
+      "Thalaiyasingam Ajanthan*",
+      "Philip HS Torr"
+    ],
+    "year": 2018,
+    "venue": "ECCV",
+    "type": "conference",
+    "topics": [
+      "il"
+    ],
+    "links": {
+      "paper": "/il/docs/rwalk.pdf",
+      "supplement": "/il/docs/rwalk_supp.pdf",
+      "arxiv": "https://arxiv.org/abs/1801.10112",
+      "slides": "/il/docs/rwalk_poster.pdf"
+    },
+    "bibtex": "@inproceedings{chaudhry_rwalk_eccv2018,\n  title={{Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence}},\n  author={Chaudhry, Arslan and Dokania, Puneet K and Ajanthan, Thalaiyasingam and Torr, Philip HS},\n  year={2018},\n  booktitle={ECCV}\n}",
+    "sources": [
+      "publications/index.html",
+      "il/index.html"
+    ],
+    "selected": 6,
+    "citationThreshold": 2000
+  },
+  {
+    "id": "najafi_vobjseg_davis2018",
+    "title": "Similarity Learning for One-Shot Video Object Segmentation",
+    "authors": [
+      "Mohammad Najafi*",
+      "Viveka Kulharia*",
+      "Thalaiyasingam Ajanthan",
+      "Philip HS Torr"
+    ],
+    "year": 2018,
+    "venue": "CVPR Workshop: DAVIS Challenge on Video Object Segmentation",
+    "type": "workshop",
+    "topics": ["metric", "semseg"],
+    "links": {
+      "paper": "/cv/docs/vobjseg.pdf"
+    },
+    "bibtex": "@inproceedings{najafi_vobjseg_davis2018,\n  title={{Similarity Learning for One-Shot Video Object Segmentation}},\n  author={Najafi, Mohammad and Kulharia, Viveka and Ajanthan, Thalaiyasingam and Torr, Philip HS},\n  year={2018},\n  booktitle={CVPR Workshop: DAVIS Challenge on Video Object Segmentation}\n}",
+    "sources": [
+      "publications/index.html",
+      "cv/index.html",
+      "meta/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_proxlp_cvpr2017",
+    "title": "Efficient Linear Programming for Dense CRFs",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Alban Desmaison",
+      "Rudy Bunel",
+      "Mathieu Salzmann",
+      "Philip HS Torr",
+      "M Pawan Kumar"
+    ],
+    "year": 2017,
+    "venue": "CVPR",
+    "type": "conference",
+    "topics": ["mrf"],
+    "links": {
+      "paper": "/mrf/docs/lpdensecrf.pdf",
+      "supplement": "/mrf/docs/lpdensecrf_supp.pdf",
+      "arxiv": "https://arxiv.org/abs/1611.09718",
+      "slides": "/mrf/docs/lpdensecrf_poster.pdf",
+      "code": "https://github.com/oval-group/DenseCRF"
+    },
+    "bibtex": "@inproceedings{ajanthan_proxlp_cvpr2017,\n  title={{Efficient Linear Programming for Dense CRFs}},\n  author={Ajanthan, Thalaiyasingam and Desmaison, Alban and Bunel, Rudy and Salzmann, Mathieu and Torr, Philip HS and Kumar, M Pawan},\n  year={2017},\n  booktitle={CVPR}\n}",
+    "sources": [
+      "publications/index.html",
+      "mrf/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_thesis_2017",
+    "title": "Optimization of Markov Random Fields in Computer Vision",
+    "authors": [
+      "Thalaiyasingam Ajanthan"
+    ],
+    "year": 2017,
+    "venue": "ANU PhD Thesis",
+    "type": "thesis",
+    "topics": ["mrf", "graphcuts"],
+    "links": {
+      "paper": "/mrf/docs/Ajanthan_PhD_Thesis.pdf",
+      "slides": "/mrf/docs/mrf-opt-talk.pdf"
+    },
+    "bibtex": "@phdthesis{ajanthan_thesis_2017,\n  title={{Optimization of Markov Random Fields in Computer Vision}},\n  author={Ajanthan, Thalaiyasingam},\n  year={2017},\n  school={ANU PhD Thesis}\n}",
+    "sources": [
+      "publications/index.html",
+      "mrf/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_memf_cvpr2016",
+    "title": "Memory Efficient Max Flow for Multi-label Submodular MRFs",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Richard Hartley",
+      "Mathieu Salzmann"
+    ],
+    "year": 2016,
+    "venue": "CVPR",
+    "type": "conference",
+    "topics": ["mrf", "graphcuts"],
+    "links": {
+      "paper": "/mrf/docs/memf.pdf",
+      "supplement": "/mrf/docs/memf_supp.pdf",
+      "slides": "/mrf/docs/memf_poster.pdf",
+      "code": "https://github.com/tajanthan/memf"
+    },
+    "bibtex": "@inproceedings{ajanthan_memf_cvpr2016,\n  title={{Memory Efficient Max Flow for Multi-label Submodular MRFs}},\n  author={Ajanthan, Thalaiyasingam and Hartley, Richard and Salzmann, Mathieu},\n  year={2016},\n  booktitle={CVPR}\n}",
+    "sources": [
+      "publications/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_irgc_cvpr2015",
+    "title": "Iteratively Reweighted Graph Cut for Multi-label MRFs with Non-convex Priors",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Richard Hartley",
+      "Mathieu Salzmann",
+      "Hongdong Li"
+    ],
+    "year": 2015,
+    "venue": "CVPR",
+    "type": "conference",
+    "topics": ["mrf", "graphcuts"],
+    "links": {
+      "paper": "/mrf/docs/irgc.pdf",
+      "arxiv": "https://arxiv.org/abs/1411.6340",
+      "slides": "/mrf/docs/irgc_poster.pdf",
+      "code": "https://github.com/tajanthan/irgc"
+    },
+    "bibtex": "@inproceedings{ajanthan_irgc_cvpr2015,\n  title={{Iteratively Reweighted Graph Cut for Multi-label MRFs with Non-convex Priors}},\n  author={Ajanthan, Thalaiyasingam and Hartley, Richard and Salzmann, Mathieu and Li, Hongdong},\n  year={2015},\n  booktitle={CVPR}\n}",
+    "sources": [
+      "publications/index.html",
+      "mrf/index.html"
+    ]
+  },
+  {
+    "id": "ajanthan_anpr_iciis2013",
+    "title": "Automatic Number Plate Recognition in Low Quality Videos",
+    "authors": [
+      "Thalaiyasingam Ajanthan",
+      "Parameswaran Kamalaruban",
+      "Ranga Rodrigo"
+    ],
+    "year": 2013,
+    "venue": "ICIIS",
+    "type": "conference",
+    "topics": ["textrecognition"],
+    "links": {
+      "paper": "/cv/docs/anpr.pdf"
+    },
+    "bibtex": "@inproceedings{ajanthan_anpr_iciis2013,\n  title={{Automatic Number Plate Recognition in Low Quality Videos}},\n  author={Ajanthan, Thalaiyasingam and Kamalaruban, Parameswaran and Rodrigo, Ranga},\n  year={2013},\n  booktitle={ICIIS}\n}",
+    "sources": [
+      "publications/index.html"
+    ]
+  }
+]

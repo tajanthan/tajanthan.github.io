@@ -1,0 +1,23 @@
+{
+  "name": "ajanthan-research-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "images": "node scripts/optimize-images.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node scripts/validate.mjs",
+    "test": "node --test scripts/lib/*.test.mjs",
+    "test:browser": "playwright test",
+    "publications:check": "node scripts/check-publications.mjs",
+    "publications:import": "node scripts/import-scholar.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "sharp": "^0.35.4"
+  }
+}

@@ -1,162 +1,179 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>PL</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/normalize.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/github-light.css" media="screen">
-	<link rel="shortcut icon" href="../images/dlt.png" />
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Protocol Learning</h1>
-	  <!--<h2 class="project-tagline">
-      <strong>Yao Lu, Stephen Gould, and Thalaiyasingam Ajanthan</strong>
-	  </h2>
-	  <h2 class="project-tagline">
-	  Australian National University</h2>-->
-    </section>
-
-    <section class="main-content">
-      
-
-<h2 id="abstract">Abstract</h2>
-<div>
-Training frontier-scale foundational models are typically limited to centralized computing clusters with fast interconnects, due to the high communication cost of distributed training. Protocol learning aims to address this and make decentralized training feasible on consumer grade GPUs connected over the internet. In addition to communication efficiency, protocol learning aims to realize volunteer, multi-party training and inference at scale, by addressing research problems such as robustness to malicious actors, and weight unextractability. <a href="https://blog.pluralis.ai/p/a-third-path-protocol-learning" title="pdf">Read more</a>
-</div>
-
-
-<h2 id="talks">Talks</h2>
-<div>
-<a href="https://youtu.be/-tjdLaDxYsQ">Communication Efficient Model Parallel Training</a>, Workshop on Distributed Training in the Era of Large Models, KAUST, November 2025.
-</div>
-
-<h2 id="publications">Publications</h2>
-
-
-<div>
-Taming Curvature: Architecture Warm-up for Stable Transformer Training.<br/>
-Sameera Ramasinghe, <strong>Thalaiyasingam Ajanthan</strong>, Hadi Mohaghegh Dolatabadi, Chamin P Hewa Koneputugodage, Gil Avraham, Violetta Shevchenko, Yan Zuo, Karol Pajak, and Alexander Long.<br/> 
-International Conference on Learning Representations (ICLR), May 2026. <br/>
-[to appear] <!--[<a href="https://arxiv.org/abs/2506.01260" title="arxiv">arxiv</a>]--> [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{ramasinghe_archwp_iclr26,
-  title={Taming Curvature: Architecture Warm-up for Stable Transformer Training}, 
-  author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Mohaghegh Dolatabadi, Hadi and P Hewa Koneputugodage, Chamin and Avraham, Gil and Shevchenko, Violetta and Zuo, Yan and Pajak, Karol and Long, Alexander},
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24312f">
+  <meta name="description" content="Research on decentralized, communication-efficient training of large models across independent compute.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Protocol learning · Thalaiyasingam Ajanthan">
+  <meta property="og:description" content="Research on decentralized, communication-efficient training of large models across independent compute.">
+  <meta property="og:url" content="https://tajanthan.github.io/pl/">
+  <meta property="og:image" content="https://tajanthan.github.io/images/avatar.jpg">
+  <link rel="canonical" href="https://tajanthan.github.io/pl/">
+  <link rel="icon" href="../images/avatar.jpg">
+  <link rel="stylesheet" href="../assets/css/academicons.min.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script defer src="../assets/js/site.js"></script>
+  <title>Protocol learning · Thalaiyasingam Ajanthan</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="mobile-header">
+    <a href="/" class="mobile-brand">AJ</a>
+    <button class="menu-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+  </header>
+  <aside class="sidebar" id="site-sidebar" aria-label="Site navigation">
+    <div class="sidebar-top">
+      <a href="/" class="portrait-link"><img src="../images/portrait.webp" width="112" height="112" alt="Portrait of Thalaiyasingam Ajanthan"></a>
+      <div class="sidebar-identity"><a href="/">AJ<span class="identity-dot">.</span></a><p><span class="sidebar-role">Founding Scientist, Research Lead</span><br>Pluralis Research</p></div>
+    </div>
+    <nav class="sidebar-nav" aria-label="Main navigation"><a href="/#about">Profile</a><a href="/#research" aria-current="page">Research</a><a href="/#selected-work">Selected Publications</a><a href="/#talks">Invited Keynotes</a><a href="/#background">Background</a><a href="/#mentoring">Mentoring & Service</a><a href="/#notes">Pulse on X</a><a href="/#contact">Contact</a></nav>
+    <div class="sidebar-bottom"><div class="social-links" role="group" aria-label="Social profiles"><a class="social-icon" href="https://scholar.google.com.au/citations?user=Rza8c10AAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar" target="_blank" rel="noopener noreferrer"><span class="ai ai-google-scholar" aria-hidden="true"></span></a><a class="social-icon" href="https://github.com/tajanthan" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3Z"/></svg></a><a class="social-icon" href="https://au.linkedin.com/in/thalaiyasingamajanthan" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.44-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.28 2.37 4.28 5.46v6.28ZM5.33 7.43a2.06 2.06 0 1 1 .02-4.12 2.06 2.06 0 0 1-.02 4.12ZM7.11 20.45H3.55V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg></a><a class="social-icon" href="https://x.com/tha_ajanthan" aria-label="X" title="X" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.5h-7.4l-5.8-7.59-6.63 7.59H.49l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93Zm-1.29 19.04h2.04L6.48 3.35H4.29l13.32 16.84Z"/></svg></a></div></div>
+  </aside>
+  <main id="main-content" class="main-content"><div class="page-wrap inner-page topic-page"><a href="/#research" class="topic-return">← Research</a><div class="topic-overview has-theme-figure"><div class="page-intro"><h1>Protocol learning</h1><p>Research on decentralized, communication-efficient training of large models across independent compute. <a href="https://arxiv.org/abs/2412.07890" target="_blank" rel="noopener noreferrer">Read more</a></p></div><figure class="topic-theme-figure"><a class="topic-figure-trigger" href="../images/theme-protocol.png" data-figure-open="theme-figure-dialog" aria-haspopup="dialog" aria-controls="theme-figure-dialog" aria-label="View larger Protocol learning figure"><img src="../images/theme-protocol.png" width="1428" height="847" alt="Agora system overview: language model stages, workers, trainers and managed services" loading="eager"></a></figure></div><dialog class="figure-dialog" id="theme-figure-dialog" aria-label="Enlarged Protocol learning research figure"><div class="figure-dialog-header"><button type="button" class="figure-dialog-close" data-figure-close autofocus>Close <span aria-hidden="true">×</span></button></div><img src="../images/theme-protocol.png" width="1428" height="847" alt="Agora system overview: language model stages, workers, trainers and managed services"></dialog>
+    <div class="section-heading topic-heading"><div><h2 id="topic-papers-title">Papers</h2></div><a href="/publications/" class="text-arrow">All publications</a></div>
+    <section class="year-group" data-year-group aria-labelledby="year-2026"><h2 id="year-2026" class="year-heading">2026</h2><div class="paper-list"><article class="paper" id="ajanthan_asyncmesh_arxiv26" data-paper data-search="asyncmesh fully asynchronous optimization for data and pipeline parallelism thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe gil avraham g avraham hadi mohaghegh dolatabadi h mohaghegh dolatabadi chamin p hewa koneputugodage c p hewa koneputugodage violetta shevchenko v shevchenko yan zuo y zuo alexander long a long neurips 2026 conference pl protocol learning nno learning dynamics optimization decentralized decentralized training asyncopt asynchronous optimization comm communication efficiency pipeline pipeline parallelism" data-type="conference" data-topics="pl nno decentralized asyncopt comm pipeline" data-author-roles="first">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/publications/docs/2601.22442.pdf">AsyncMesh: Fully Asynchronous Optimization for Data and Pipeline Parallelism</a></h3>
+    <p class="paper-authors"><strong>T. Ajanthan</strong>, S. Ramasinghe, G. Avraham, H. Mohaghegh Dolatabadi, C. P. Hewa Koneputugodage, V. Shevchenko, Y. Zuo, A. Long</p>
+    <div class="paper-actions"><a href="/publications/docs/2601.22442.pdf">PDF</a><a href="https://arxiv.org/abs/2601.22442" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/PluralisResearch/AsyncMesh" target="_blank" rel="noopener noreferrer">Code</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ajanthan_asyncmesh_arxiv26">Copy citation</button><pre id="bib-ajanthan_asyncmesh_arxiv26"><code>@inproceedings{ajanthan_asyncmesh_arxiv26,
+  title={{AsyncMesh: Fully Asynchronous Optimization for Data and Pipeline Parallelism}},
+  author={Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Avraham, Gil and Mohaghegh Dolatabadi, Hadi and P Hewa Koneputugodage, Chamin and Shevchenko, Violetta and Zuo, Yan and Long, Alexander},
   year={2026},
-  journal={ICLR}
-}</pre>
-</div><br/>
-
-							
-<div>
-Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization.<br/>
-Alexander Long*, Chamin P Hewa Koneputugodage*, <strong>Thalaiyasingam Ajanthan</strong>, Yan Zuo, Gil Avraham, Violetta Shevchenko, Hadi Mohaghegh Dolatabadi, and Sameera Ramasinghe.<br/> 
-Neural Information Processing Systems (NeurIPS), December 2025. <br/>
-[<a href="../pl/docs/upm.pdf" title="pdf">pdf</a>] <!--[<a href="https://arxiv.org/abs/2506.01260" title="arxiv">arxiv</a>]--> [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{long_upms_neurips25,
-  title={Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization}, 
-  author={Long, Alexander and P Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Zuo, Yan and Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Ramasinghe, Sameera},
-  year={2025},
-  journal={NeurIPS}
-}</pre>
-</div><br/>
-
-<div>
-Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training.<br/>
-Sameera Ramasinghe, <strong>Thalaiyasingam Ajanthan</strong>, Hadi Mohaghegh Dolatabadi, Gil Avraham, Violetta Shevchenko, Yan Zuo, Chamin P Hewa Koneputugodage, and Alexander Long.<br/> 
-Neural Information Processing Systems (NeurIPS), December 2025. <br/>
-[<a href="../pl/docs/mos.pdf" title="pdf">pdf</a>] <!--[<a href="https://arxiv.org/abs/2506.01260" title="arxiv">arxiv</a>]--> [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{ramasinghe_mixtures_neurips25,
-  title={Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training}, 
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/asyncopt/">Asynchronous optimization</a><a href="/pipeline/">Pipeline parallelism</a><a href="/comm/">Communication efficiency</a></div>
+  </article><article class="paper" id="ramasinghe_llm_adaptation_arxiv26" data-paper data-search="communication efficient llm adaptation over decentralized gpu meshes sameera ramasinghe s ramasinghe shamane siriwardhana s siriwardhana thalaiyasingam ajanthan t ajanthan hadi mohaghegh dolatabadi h mohaghegh dolatabadi chamin p hewa koneputugodage c p hewa koneputugodage gil avraham g avraham violetta shevchenko v shevchenko james snewin j snewin karol pajak k pajak harry xi h xi alexander long a long neurips 2026 conference pl protocol learning nno learning dynamics optimization decentralized decentralized training asyncopt asynchronous optimization comm communication efficiency pipeline pipeline parallelism" data-type="conference" data-topics="pl nno decentralized asyncopt comm pipeline" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/publications/docs/2609.14339.pdf">Communication-Efficient LLM Adaptation over Decentralized GPU Meshes</a></h3>
+    <p class="paper-authors">S. Ramasinghe, S. Siriwardhana, <strong>T. Ajanthan</strong>, H. Mohaghegh Dolatabadi, C. P. Hewa Koneputugodage, G. Avraham, V. Shevchenko, J. Snewin, K. Pajak, H. Xi, A. Long</p>
+    <div class="paper-actions"><a href="/publications/docs/2609.14339.pdf">PDF</a><a href="https://arxiv.org/abs/2609.14339" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ramasinghe_llm_adaptation_arxiv26">Copy citation</button><pre id="bib-ramasinghe_llm_adaptation_arxiv26"><code>@inproceedings{ramasinghe_llm_adaptation_arxiv26,
+  title={{Communication-Efficient LLM Adaptation over Decentralized GPU Meshes}},
+  author={Ramasinghe, Sameera and Siriwardhana, Shamane and Ajanthan, Thalaiyasingam and Mohaghegh Dolatabadi, Hadi and P Hewa Koneputugodage, Chamin and Avraham, Gil and Shevchenko, Violetta and Snewin, James and Pajak, Karol and Xi, Harry and Long, Alexander},
+  year={2026},
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/asyncopt/">Asynchronous optimization</a><a href="/comm/">Communication efficiency</a><a href="/pipeline/">Pipeline parallelism</a></div>
+  </article><article class="paper" id="koneputugodage_factored_gossip_icml26" data-paper data-search="factored gossip diloco reducing blocking communication in diloco chamin hewa koneputugodage c hewa koneputugodage thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe hadi mohaghegh dolatabadi h mohaghegh dolatabadi shamane siriwardhana s siriwardhana gil avraham g avraham violetta shevchenko v shevchenko karol pajak k pajak james snewin j snewin alexander long a long icml 2026 conference pl protocol learning decentralized decentralized training comm communication efficiency" data-type="conference" data-topics="pl decentralized comm" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">ICML</span></div>
+    <h3><a href="/publications/docs/2606.22768.pdf">Factored Gossip DiLoCo: Reducing Blocking Communication in DiLoCo</a></h3>
+    <p class="paper-authors">C. Hewa Koneputugodage, <strong>T. Ajanthan</strong>, S. Ramasinghe, H. Mohaghegh Dolatabadi, S. Siriwardhana, G. Avraham, V. Shevchenko, K. Pajak, J. Snewin, A. Long</p>
+    <div class="paper-actions"><a href="/publications/docs/2606.22768.pdf">PDF</a><a href="https://arxiv.org/abs/2606.22768" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://pluralis.ai/blog/factored-gossip-diloco/" target="_blank" rel="noopener noreferrer">Post</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="koneputugodage_factored_gossip_icml26">Copy citation</button><pre id="bib-koneputugodage_factored_gossip_icml26"><code>@inproceedings{koneputugodage_factored_gossip_icml26,
+  title={{Factored Gossip DiLoCo: Reducing Blocking Communication in DiLoCo}},
+  author={Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Mohaghegh Dolatabadi, Hadi and Siriwardhana, Shamane and Avraham, Gil and Shevchenko, Violetta and Pajak, Karol and Snewin, James and Long, Alexander},
+  year={2026},
+  booktitle={ICML}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/comm/">Communication efficiency</a></div>
+  </article><article class="paper" id="avraham_agora_arxiv26" data-paper data-search="agora collective and permissionless internet scale pretraining of large language models gil avraham g avraham violetta shevchenko v shevchenko hadi mohaghegh dolatabadi h mohaghegh dolatabadi karol pajak k pajak james snewin j snewin harry xi h xi rodney o donnell r o donnell thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe chamin hewa koneputugodage c hewa koneputugodage shamane siriwardhana s siriwardhana alexander long a long arxiv 2026 preprint pl protocol learning nno learning dynamics optimization decentralized decentralized training asyncopt asynchronous optimization comm communication efficiency pipeline pipeline parallelism" data-type="preprint" data-topics="pl nno decentralized asyncopt comm pipeline" data-author-roles="">
+    <div class="paper-meta"><span class="paper-venue">arXiv</span></div>
+    <h3><a href="/publications/docs/2607.13332.pdf">Agora: Collective and Permissionless Internet-Scale Pretraining of Large Language Models</a></h3>
+    <p class="paper-authors">G. Avraham<sup>*</sup>, V. Shevchenko<sup>*</sup>, H. Mohaghegh Dolatabadi<sup>*</sup>, K. Pajak<sup>*</sup>, J. Snewin, H. Xi, R. O&#39;Donnell, <strong>T. Ajanthan</strong>, S. Ramasinghe, C. Hewa Koneputugodage, S. Siriwardhana, A. Long</p>
+    <div class="paper-actions"><a href="/publications/docs/2607.13332.pdf">PDF</a><a href="https://arxiv.org/abs/2607.13332" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/PluralisResearch/agora" target="_blank" rel="noopener noreferrer">Code</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="avraham_agora_arxiv26">Copy citation</button><pre id="bib-avraham_agora_arxiv26"><code>@article{avraham_agora_arxiv26,
+  title={{Agora: Collective and Permissionless Internet-Scale Pretraining of Large Language Models}},
+  author={Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Pajak, Karol and Snewin, James and Xi, Harry and O&#39;Donnell, Rodney and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Hewa Koneputugodage, Chamin and Siriwardhana, Shamane and Long, Alexander},
+  year={2026},
+  journal={arXiv},
+  eprint={2607.13332},
+  archiveprefix={arXiv},
+  url={https://arxiv.org/abs/2607.13332}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/asyncopt/">Asynchronous optimization</a><a href="/comm/">Communication efficiency</a><a href="/pipeline/">Pipeline parallelism</a></div>
+  </article><article class="paper" id="dolatabadi_sentinel_arxiv26" data-paper data-search="sentinel stagewise integrity verification for pipeline parallel decentralized training hadi mohaghegh dolatabadi h mohaghegh dolatabadi thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe chamin p hewa koneputugodage c p hewa koneputugodage gil avraham g avraham yan zuo y zuo violetta shevchenko v shevchenko alexander long a long arxiv 2026 preprint pl protocol learning decentralized decentralized training pipeline pipeline parallelism verify training verification" data-type="preprint" data-topics="pl decentralized pipeline verify" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">arXiv</span></div>
+    <h3><a href="/publications/docs/2603.03592.pdf">SENTINEL: Stagewise Integrity Verification for Pipeline Parallel Decentralized Training</a></h3>
+    <p class="paper-authors">H. Mohaghegh Dolatabadi, <strong>T. Ajanthan</strong>, S. Ramasinghe, C. P. Hewa Koneputugodage, G. Avraham, Y. Zuo, V. Shevchenko, A. Long</p>
+    <div class="paper-actions"><a href="/publications/docs/2603.03592.pdf">PDF</a><a href="https://arxiv.org/abs/2603.03592" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="dolatabadi_sentinel_arxiv26">Copy citation</button><pre id="bib-dolatabadi_sentinel_arxiv26"><code>@article{dolatabadi_sentinel_arxiv26,
+  title={{SENTINEL: Stagewise Integrity Verification for Pipeline Parallel Decentralized Training}},
+  author={Mohaghegh Dolatabadi, Hadi and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and P Hewa Koneputugodage, Chamin and Avraham, Gil and Zuo, Yan and Shevchenko, Violetta and Long, Alexander},
+  year={2026},
+  journal={arXiv},
+  eprint={2603.03592},
+  archiveprefix={arXiv},
+  url={https://arxiv.org/abs/2603.03592}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/pipeline/">Pipeline parallelism</a><a href="/verify/">Training verification</a></div>
+  </article></div></section><section class="year-group" data-year-group aria-labelledby="year-2025"><h2 id="year-2025" class="year-heading">2025</h2><div class="paper-list"><article class="paper" id="ramasinghe_mixtures_neurips25" data-paper data-search="mixtures of subspaces for bandwidth efficient context parallel training sameera ramasinghe s ramasinghe thalaiyasingam ajanthan t ajanthan hadi mohaghegh dolatabadi h mohaghegh dolatabadi gil avraham g avraham violetta shevchenko v shevchenko yan zuo y zuo chamin p hewa koneputugodage c p hewa koneputugodage alexander long a long neurips 2025 conference pl protocol learning compression neural network compression decentralized decentralized training comm communication efficiency context context parallelism lowrank low rank training" data-type="conference" data-topics="pl compression decentralized comm context lowrank" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/pl/docs/mos.pdf">Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training</a></h3>
+    <p class="paper-authors">S. Ramasinghe, <strong>T. Ajanthan</strong>, H. Mohaghegh Dolatabadi, G. Avraham, V. Shevchenko, Y. Zuo, C. P. Hewa Koneputugodage, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/mos.pdf">PDF</a><a href="https://arxiv.org/abs/2606.16384" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ramasinghe_mixtures_neurips25">Copy citation</button><pre id="bib-ramasinghe_mixtures_neurips25"><code>@inproceedings{ramasinghe_mixtures_neurips25,
+  title={{Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training}},
   author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Mohaghegh Dolatabadi, Hadi and Avraham, Gil and Shevchenko, Violetta and Zuo, Yan and P Hewa Koneputugodage, Chamin and Long, Alexander},
   year={2025},
-  journal={NeurIPS}
-}</pre>
-</div><br/>
-
-<div>
-Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism.<br/>
-Sameera Ramasinghe, <strong>Thalaiyasingam Ajanthan</strong>, Gil Avraham, Yan Zuo, and Alexander Long.<br/> 
-Neural Information Processing Systems (NeurIPS), December 2025. <br/>
-[<a href="../pl/docs/ssn.pdf" title="pdf">pdf</a>] [<a href="https://arxiv.org/abs/2506.01260" title="arxiv">arxiv</a>] [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{ramasinghe_protocol_neurips25,
-  title={Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism}, 
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/comm/">Communication efficiency</a><a href="/context/">Context parallelism</a><a href="/lowrank/">Low-rank training</a></div>
+  </article><article class="paper" id="ramasinghe_protocol_neurips25" data-paper data-search="subspace networks scaling decentralized training with communication efficient model parallelism sameera ramasinghe s ramasinghe thalaiyasingam ajanthan t ajanthan gil avraham g avraham yan zuo y zuo alexander long a long neurips 2025 conference pl protocol learning compression neural network compression decentralized decentralized training comm communication efficiency pipeline pipeline parallelism lowrank low rank training" data-type="conference" data-topics="pl compression decentralized comm pipeline lowrank" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/pl/docs/ssn.pdf">Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism</a></h3>
+    <p class="paper-authors">S. Ramasinghe, <strong>T. Ajanthan</strong>, G. Avraham, Y. Zuo, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/ssn.pdf">PDF</a><a href="https://arxiv.org/abs/2506.01260" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ramasinghe_protocol_neurips25">Copy citation</button><pre id="bib-ramasinghe_protocol_neurips25"><code>@inproceedings{ramasinghe_protocol_neurips25,
+  title={{Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism}},
   author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Avraham, Gil and Zuo, Yan and Long, Alexander},
   year={2025},
-  journal={NeurIPS}
-}</pre>
-</div><br/>
-
-<div>
-Nesterov Method for Asynchronous Pipeline Parallel Optimization.<br/>
-<strong>Thalaiyasingam Ajanthan</strong>, Sameera Ramasinghe, Yan Zuo, Gil Avraham, and Alexander Long.<br/> 
-International Conference on Machine Learning (ICML), 2025. <br/>
-[<a href="../pl/docs/asyncpp.pdf" title="pdf">pdf</a>] [<a href="https://arxiv.org/abs/2505.01099" title="arxiv">arxiv</a>] [<a href="https://github.com/PluralisResearch/AsyncPP" title="code">code</a>] [<a href="https://pluralis.ai/blog/asynchronous-pipeline-parallelism" title="blog">blog</a>] [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{ajanthan_asyncpp_icml25,
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/pipeline/">Pipeline parallelism</a><a href="/comm/">Communication efficiency</a><a href="/lowrank/">Low-rank training</a></div>
+  </article><article class="paper" id="long_upms_neurips25" data-paper data-search="unextractable protocol models collaborative training and inference without weight materialization alexander long a long chamin p hewa koneputugodage c p hewa koneputugodage thalaiyasingam ajanthan t ajanthan yan zuo y zuo gil avraham g avraham violetta shevchenko v shevchenko hadi mohaghegh dolatabadi h mohaghegh dolatabadi sameera ramasinghe s ramasinghe neurips 2025 conference pl protocol learning decentralized decentralized training pipeline pipeline parallelism" data-type="conference" data-topics="pl decentralized pipeline" data-author-roles="">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/pl/docs/upm.pdf">Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization</a></h3>
+    <p class="paper-authors">A. Long<sup>*</sup>, C. P. Hewa Koneputugodage<sup>*</sup>, <strong>T. Ajanthan</strong>, Y. Zuo, G. Avraham, V. Shevchenko, H. Mohaghegh Dolatabadi, S. Ramasinghe</p>
+    <div class="paper-actions"><a href="/pl/docs/upm.pdf">PDF</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="long_upms_neurips25">Copy citation</button><pre id="bib-long_upms_neurips25"><code>@inproceedings{long_upms_neurips25,
+  title={{Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization}},
+  author={Long, Alexander and P Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Zuo, Yan and Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Ramasinghe, Sameera},
+  year={2025},
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/pipeline/">Pipeline parallelism</a></div>
+  </article><article class="paper" id="ajanthan_asyncpp_icml25" data-paper data-search="nesterov method for asynchronous pipeline parallel optimization thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe yan zuo y zuo gil avraham g avraham alexander long a long icml 2025 conference pl protocol learning nno learning dynamics optimization decentralized decentralized training asyncopt asynchronous optimization pipeline pipeline parallelism" data-type="conference" data-topics="pl nno decentralized asyncopt pipeline" data-author-roles="first">
+    <div class="paper-meta"><span class="paper-venue">ICML</span></div>
+    <h3><a href="/pl/docs/asyncpp.pdf">Nesterov Method for Asynchronous Pipeline Parallel Optimization</a></h3>
+    <p class="paper-authors"><strong>T. Ajanthan</strong>, S. Ramasinghe, Y. Zuo, G. Avraham, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/asyncpp.pdf">PDF</a><a href="https://arxiv.org/abs/2505.01099" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/PluralisResearch/AsyncPP" target="_blank" rel="noopener noreferrer">Code</a><a href="https://pluralis.ai/blog/asynchronous-pipeline-parallelism/" target="_blank" rel="noopener noreferrer">Post</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ajanthan_asyncpp_icml25">Copy citation</button><pre id="bib-ajanthan_asyncpp_icml25"><code>@inproceedings{ajanthan_asyncpp_icml25,
+  title={{Nesterov Method for Asynchronous Pipeline Parallel Optimization}},
   author={Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Zuo, Yan and Avraham, Gil and Long, Alexander},
-  title={Nesterov Method for Asynchronous Pipeline Parallel Optimization},
-  journal={ICML},
-  year={2025}
-}</pre>
-</div><br/>
-
-<div>Beyond Top-K: Structured Sparsification for Compression in Pipeline Parallel.<br/> 
-Sameera Ramasinghe, <strong>Thalaiyasingam Ajanthan</strong>, Gil Avraham, Yan Zuo, and Alexander Long.<br/>
-ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning, 2025. <br/>
-[<a href="../pl/docs/beyondtopk.pdf" title="pdf">pdf</a>] [<a href="https://blog.pluralis.ai/p/beyond-top-k-pipeline-parallelism" title="blog">blog</a>] [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{ramasinghe_beyondtopk_iclr25,
+  year={2025},
+  booktitle={ICML}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/asyncopt/">Asynchronous optimization</a><a href="/pipeline/">Pipeline parallelism</a></div>
+  </article><article class="paper" id="ramasinghe_beyondtopk_iclr25" data-paper data-search="beyond top k structured sparsification for compression in pipeline parallel sameera ramasinghe s ramasinghe thalaiyasingam ajanthan t ajanthan gil avraham g avraham yan zuo y zuo alexander long a long iclr workshop 2025 workshop pl protocol learning comm communication efficiency pipeline pipeline parallelism" data-type="workshop" data-topics="pl comm pipeline" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">ICLR Workshop</span></div>
+    <h3><a href="/pl/docs/beyondtopk.pdf">Beyond Top-K: Structured Sparsification for Compression in Pipeline Parallel</a></h3>
+    <p class="paper-authors">S. Ramasinghe, <strong>T. Ajanthan</strong>, G. Avraham, Y. Zuo, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/beyondtopk.pdf">PDF</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ramasinghe_beyondtopk_iclr25">Copy citation</button><pre id="bib-ramasinghe_beyondtopk_iclr25"><code>@inproceedings{ramasinghe_beyondtopk_iclr25,
+  title={{Beyond Top-K: Structured Sparsification for Compression in Pipeline Parallel}},
   author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Avraham, Gil and Zuo, Yan and Long, Alexander},
-  title={Beyond Top-K: Structured Sparsification for Compression in Pipeline Parallel},
-  journal={ICLR},
-  year={2025}
-}</pre>
-</div></br>
-
-<div>Exploring Asynchronism in SWARM Parallelism.<br/>
-Yan Zuo, Gil Avraham, <strong>Thalaiyasingam Ajanthan</strong>, Sameera Ramasinghe, and Alexander Long.<br/>
-ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning, 2025. <br/>
-[<a href="../pl/docs/asyncswarm.pdf" title="pdf">pdf</a>] [<a href="https://blog.pluralis.ai/p/swarm-parallel-with-asynchronous" title="blog">blog</a>] [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{zuo_asyncswarm_iclr25,
+  year={2025},
+  booktitle={ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/comm/">Communication efficiency</a><a href="/pipeline/">Pipeline parallelism</a></div>
+  </article><article class="paper" id="zuo_asyncswarm_iclr25" data-paper data-search="exploring asynchronism in swarm parallelism yan zuo y zuo gil avraham g avraham thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe alexander long a long iclr workshop 2025 workshop pl protocol learning nno learning dynamics optimization decentralized decentralized training asyncopt asynchronous optimization pipeline pipeline parallelism" data-type="workshop" data-topics="pl nno decentralized asyncopt pipeline" data-author-roles="">
+    <div class="paper-meta"><span class="paper-venue">ICLR Workshop</span></div>
+    <h3><a href="/pl/docs/asyncswarm.pdf">Exploring Asynchronism in SWARM Parallelism</a></h3>
+    <p class="paper-authors">Y. Zuo, G. Avraham, <strong>T. Ajanthan</strong>, S. Ramasinghe, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/asyncswarm.pdf">PDF</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="zuo_asyncswarm_iclr25">Copy citation</button><pre id="bib-zuo_asyncswarm_iclr25"><code>@inproceedings{zuo_asyncswarm_iclr25,
+  title={{Exploring Asynchronism in SWARM Parallelism}},
   author={Zuo, Yan and Avraham, Gil and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Long, Alexander},
-  title={Exploring Asynchronism in SWARM Parallelism},
-  journal={ICLR},
-  year={2025}
-}</pre>
-</div></br>
-
-<div>Momentum Look-Ahead for Asynchronous Distributed Low-Communication Training.<br/>
-<strong>Thalaiyasingam Ajanthan</strong>, Sameera Ramasinghe, Gil Avraham, Yan Zuo, and Alexander Long.<br/>
-ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning, 2025.<br/> 
-[<a href="../pl/docs/mla.pdf" title="pdf">pdf</a>] [<a href="https://blog.pluralis.ai/p/efficient-asynchronous-low-bandwidth" title="blog">blog</a>] [<a href="" class="bibLink">bib</a>]
-<pre class="bibBlock" style="display: none;">
-@article{ajanthan_mla_iclr25,
+  year={2025},
+  booktitle={ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/asyncopt/">Asynchronous optimization</a><a href="/pipeline/">Pipeline parallelism</a></div>
+  </article><article class="paper" id="ajanthan_mla_iclr25" data-paper data-search="momentum look ahead for asynchronous distributed low communication training thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe gil avraham g avraham yan zuo y zuo alexander long a long iclr workshop 2025 workshop pl protocol learning nno learning dynamics optimization decentralized decentralized training asyncopt asynchronous optimization comm communication efficiency" data-type="workshop" data-topics="pl nno decentralized asyncopt comm" data-author-roles="first">
+    <div class="paper-meta"><span class="paper-venue">ICLR Workshop</span></div>
+    <h3><a href="/pl/docs/mla.pdf">Momentum Look-Ahead for Asynchronous Distributed Low-Communication Training</a></h3>
+    <p class="paper-authors"><strong>T. Ajanthan</strong>, S. Ramasinghe, G. Avraham, Y. Zuo, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/mla.pdf">PDF</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ajanthan_mla_iclr25">Copy citation</button><pre id="bib-ajanthan_mla_iclr25"><code>@inproceedings{ajanthan_mla_iclr25,
+  title={{Momentum Look-Ahead for Asynchronous Distributed Low-Communication Training}},
   author={Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and Avraham, Gil and Zuo, Yan and Long, Alexander},
-  title={Momentum Look-Ahead for Asynchronous Distributed Low-Communication Training},
-  journal={ICLR},
-  year={2025}
-}</pre>
-</div>
-
-
-
-      <footer class="site-footer">
-          <span class="site-footer-owner">
-            <a href="../index.html#research">
-                User profile</a>.</span>
-      </footer>
-
-    </section>
-	<script src="../assets/js/jquery.min.js"></script>
-	<script src="../assets/js/bib.js" type="text/javascript"></script>
-  
-  </body>
+  year={2025},
+  booktitle={ICLR Workshop: Modularity for Collaborative, Decentralized, and Continual Deep Learning}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/asyncopt/">Asynchronous optimization</a><a href="/comm/">Communication efficiency</a></div>
+  </article></div></section>
+    </div>
+    <footer class="site-footer"><span>© Thalaiyasingam Ajanthan</span></footer>
+  </main>
+</body>
 </html>

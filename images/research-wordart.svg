@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
+  <title id="title">Research themes over the Oxford skyline</title>
+  <desc id="desc">A typographic arrangement of research topics across a softly colored Oxford skyline.</desc>
+  <rect width="1200" height="380" fill="#f8f8f3"/>
+  <image href="/images/oxskyline-small-cropped.png" x="0" y="80" width="1200" height="282" opacity=".18" preserveAspectRatio="none"/>
+  <path d="M25 350H1175" stroke="#b8c9be" stroke-width="1"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-weight="620" text-anchor="middle">
+    <text x="156" y="133" font-size="22" fill="#557a70" transform="rotate(-6 156 133)">signal propagation</text>
+    <text x="424" y="132" font-size="24" fill="#9b7138" transform="rotate(4 424 132)">initialization</text>
+    <text x="722" y="132" font-size="25" fill="#356b60" transform="rotate(-3 722 132)">learning dynamics</text>
+    <text x="1021" y="133" font-size="22" fill="#557a70" transform="rotate(6 1021 133)">graph cuts</text>
+
+    <text x="232" y="205" font-size="31" fill="#286b5c" transform="rotate(-3 232 205)">protocol learning</text>
+    <text x="632" y="211" font-size="51" font-weight="760" letter-spacing="-1.8" fill="#244c44">collective training</text>
+    <text x="1035" y="205" font-size="31" fill="#9b7138" transform="rotate(3 1035 205)">optimization</text>
+
+    <text x="177" y="274" font-size="26" fill="#9b7138" transform="rotate(4 177 274)">compression</text>
+    <text x="482" y="274" font-size="27" fill="#356b60" transform="rotate(-3 482 274)">decentralized training</text>
+    <text x="849" y="274" font-size="26" fill="#286b5c" transform="rotate(3 849 274)">pipeline parallelism</text>
+    <text x="1090" y="273" font-size="21" fill="#557a70" transform="rotate(-7 1090 273)">pruning</text>
+
+    <text x="208" y="329" font-size="21" fill="#557a70" transform="rotate(-4 208 329)">semantic segmentation</text>
+    <text x="520" y="329" font-size="23" fill="#9b7138" transform="rotate(3 520 329)">visual representation</text>
+    <text x="858" y="329" font-size="21" fill="#557a70" transform="rotate(-3 858 329)">stereo correspondence</text>
+    <text x="1090" y="329" font-size="20" fill="#286b5c" transform="rotate(5 1090 329)">low-rank</text>
+  </g>
+</svg>

@@ -1,3 +1,8 @@
 # editors
 *.swp
 *~
+node_modules/
+test-results/
+playwright-report/
+reports/
+review/

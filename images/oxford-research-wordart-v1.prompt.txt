@@ -1,0 +1,12 @@
+Tool: built-in image_gen.imagegen
+Output: images/oxford-research-wordart.png
+Final edit prompt:
+
+Use case: precise-object-edit.
+Edit target: the attached Oxford research word-art website banner.
+Primary request: make the Oxford skyline much quieter and make the research typography richer and fuller. Preserve the wide 3:1 composition and warm cream background. The words must be the dominant visual element; the architecture is a faint supporting silhouette.
+Skyline: keep the recognizable Radcliffe Camera dome, Oxford Gothic spires and college rooflines, but replace ALL current dark architectural outlines, window details and rooflines with very pale grey-sage linework, visually around 15–20% opacity against cream. Simplify small architectural details. Do not leave dark outlines competing with words. The skyline should be gently visible behind the typography.
+Typography: create an engaging, balanced word-art composition that fills nearly the whole canvas, including previously empty upper areas and spaces around the dome/spires. Rich forest-teal words, muted sage secondary words, and restrained antique-gold accents. Crisp, elegant editorial serif lettering with a useful range of sizes. Keep 'protocol learning', 'collective training', and 'optimization' large and readable. Integrate smaller research terms among them in horizontal, upright vertical (90 degrees clockwise or counterclockwise), and gentle diagonal orientations, never upside down. Arrange as real interlocking word art rather than architectural signs or rows of labels. Keep all words distinct, readable, correctly spelled and clear of overlaps. Use small clean margins, without cropping letters.
+Text vocabulary, spelled verbatim: 'protocol learning'; 'collective training'; 'optimization'; 'decentralized training'; 'asynchronous optimization'; 'pipeline parallelism'; 'learning dynamics'; 'signal propagation'; 'compression'; 'quantization'; 'pruning'; 'low-rank'; 'representation learning'; 'graph cuts'; 'vision'; 'calibration'; 'distributed systems'; 'communication efficiency'; 'neural networks'; 'foundation models'.
+Preserve: cream background, teal/sage/gold palette, Oxford identity, 3:1 aspect ratio and polished research-homepage feel.
+Avoid: dark architectural strokes, architectural detail that dominates the words, empty bands, upside-down text, incorrect spelling, overlapping words, borders, shadows, gradients, texture, photographs, extra slogans or watermarks.

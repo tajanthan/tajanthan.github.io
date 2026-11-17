@@ -1,0 +1,27 @@
+name: Review publication candidates
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Compare DBLP records with published data
+        run: node scripts/check-publications.mjs --output review/publications-review.json
+      - name: Upload review report, including checker failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publications-review
+          path: review/publications-review.json
+          if-no-files-found: error

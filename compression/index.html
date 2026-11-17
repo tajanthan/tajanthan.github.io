@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#24312f">
+  <meta name="description" content="Quantization, pruning, and low-rank methods for efficient neural networks.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Neural network compression · Thalaiyasingam Ajanthan">
+  <meta property="og:description" content="Quantization, pruning, and low-rank methods for efficient neural networks.">
+  <meta property="og:url" content="https://tajanthan.github.io/compression/">
+  <meta property="og:image" content="https://tajanthan.github.io/images/avatar.jpg">
+  <link rel="canonical" href="https://tajanthan.github.io/compression/">
+  <link rel="icon" href="../images/avatar.jpg">
+  <link rel="stylesheet" href="../assets/css/academicons.min.css">
+  <link rel="stylesheet" href="../assets/css/site.css">
+  <script defer src="../assets/js/site.js"></script>
+  <title>Neural network compression · Thalaiyasingam Ajanthan</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="mobile-header">
+    <a href="/" class="mobile-brand">AJ</a>
+    <button class="menu-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+  </header>
+  <aside class="sidebar" id="site-sidebar" aria-label="Site navigation">
+    <div class="sidebar-top">
+      <a href="/" class="portrait-link"><img src="../images/portrait.webp" width="112" height="112" alt="Portrait of Thalaiyasingam Ajanthan"></a>
+      <div class="sidebar-identity"><a href="/">AJ<span class="identity-dot">.</span></a><p><span class="sidebar-role">Founding Scientist, Research Lead</span><br>Pluralis Research</p></div>
+    </div>
+    <nav class="sidebar-nav" aria-label="Main navigation"><a href="/#about">Profile</a><a href="/#research" aria-current="page">Research</a><a href="/#selected-work">Selected Publications</a><a href="/#talks">Invited Keynotes</a><a href="/#background">Background</a><a href="/#mentoring">Mentoring & Service</a><a href="/#notes">Pulse on X</a><a href="/#contact">Contact</a></nav>
+    <div class="sidebar-bottom"><div class="social-links" role="group" aria-label="Social profiles"><a class="social-icon" href="https://scholar.google.com.au/citations?user=Rza8c10AAAAJ&amp;hl=en" aria-label="Google Scholar" title="Google Scholar" target="_blank" rel="noopener noreferrer"><span class="ai ai-google-scholar" aria-hidden="true"></span></a><a class="social-icon" href="https://github.com/tajanthan" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3Z"/></svg></a><a class="social-icon" href="https://au.linkedin.com/in/thalaiyasingamajanthan" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.44-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.28 2.37 4.28 5.46v6.28ZM5.33 7.43a2.06 2.06 0 1 1 .02-4.12 2.06 2.06 0 0 1-.02 4.12ZM7.11 20.45H3.55V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg></a><a class="social-icon" href="https://x.com/tha_ajanthan" aria-label="X" title="X" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.5h-7.4l-5.8-7.59-6.63 7.59H.49l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93Zm-1.29 19.04h2.04L6.48 3.35H4.29l13.32 16.84Z"/></svg></a></div></div>
+  </aside>
+  <main id="main-content" class="main-content"><div class="page-wrap inner-page topic-page"><a href="/#research" class="topic-return">← Research</a><div class="topic-overview has-theme-figure"><div class="page-intro"><h1>Neural network compression</h1><p>Quantization, pruning, and low-rank methods for efficient neural networks.</p></div><figure class="topic-theme-figure"><a class="topic-figure-trigger" href="../images/theme-compression.png" data-figure-open="theme-figure-dialog" aria-haspopup="dialog" aria-controls="theme-figure-dialog" aria-label="View larger Neural network compression figure"><img src="../images/theme-compression.png" width="859" height="477" alt="Proximal mean-field quantization on a simplex" loading="eager"></a></figure></div><dialog class="figure-dialog" id="theme-figure-dialog" aria-label="Enlarged Neural network compression research figure"><div class="figure-dialog-header"><button type="button" class="figure-dialog-close" data-figure-close autofocus>Close <span aria-hidden="true">×</span></button></div><img src="../images/theme-compression.png" width="859" height="477" alt="Proximal mean-field quantization on a simplex"></dialog>
+    <div class="section-heading topic-heading"><div><h2 id="topic-papers-title">Papers</h2></div><a href="/publications/" class="text-arrow">All publications</a></div>
+    <section class="year-group" data-year-group aria-labelledby="year-2026"><h2 id="year-2026" class="year-heading">2026</h2><div class="paper-list"><article class="paper" id="dolatabadi_numuon_arxiv26" data-paper data-search="numuon nuclear norm constrained muon for compressible llm training hadi mohaghegh dolatabadi h mohaghegh dolatabadi thalaiyasingam ajanthan t ajanthan sameera ramasinghe s ramasinghe chamin p hewa koneputugodage c p hewa koneputugodage shamane siriwardhana s siriwardhana violetta shevchenko v shevchenko karol pajak k pajak james snewin j snewin gil avraham g avraham alexander long a long neurips 2026 conference nno learning dynamics optimization compression neural network compression dlt learning dynamics lowrank low rank training" data-type="conference" data-topics="nno compression dlt lowrank" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/publications/docs/2603.03597.pdf">NuMuon: Nuclear-Norm-Constrained Muon for Compressible LLM Training</a></h3>
+    <p class="paper-authors">H. Mohaghegh Dolatabadi, <strong>T. Ajanthan</strong>, S. Ramasinghe, C. P. Hewa Koneputugodage, S. Siriwardhana, V. Shevchenko, K. Pajak, J. Snewin, G. Avraham, A. Long</p>
+    <div class="paper-actions"><a href="/publications/docs/2603.03597.pdf">PDF</a><a href="https://arxiv.org/abs/2603.03597" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="dolatabadi_numuon_arxiv26">Copy citation</button><pre id="bib-dolatabadi_numuon_arxiv26"><code>@inproceedings{dolatabadi_numuon_arxiv26,
+  title={{NuMuon: Nuclear-Norm-Constrained Muon for Compressible LLM Training}},
+  author={Mohaghegh Dolatabadi, Hadi and Ajanthan, Thalaiyasingam and Ramasinghe, Sameera and P Hewa Koneputugodage, Chamin and Siriwardhana, Shamane and Shevchenko, Violetta and Pajak, Karol and Snewin, James and Avraham, Gil and Long, Alexander},
+  year={2026},
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/dlt/">Learning dynamics</a><a href="/lowrank/">Low-rank training</a></div>
+  </article></div></section><section class="year-group" data-year-group aria-labelledby="year-2025"><h2 id="year-2025" class="year-heading">2025</h2><div class="paper-list"><article class="paper" id="ramasinghe_mixtures_neurips25" data-paper data-search="mixtures of subspaces for bandwidth efficient context parallel training sameera ramasinghe s ramasinghe thalaiyasingam ajanthan t ajanthan hadi mohaghegh dolatabadi h mohaghegh dolatabadi gil avraham g avraham violetta shevchenko v shevchenko yan zuo y zuo chamin p hewa koneputugodage c p hewa koneputugodage alexander long a long neurips 2025 conference pl protocol learning compression neural network compression decentralized decentralized training comm communication efficiency context context parallelism lowrank low rank training" data-type="conference" data-topics="pl compression decentralized comm context lowrank" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/pl/docs/mos.pdf">Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training</a></h3>
+    <p class="paper-authors">S. Ramasinghe, <strong>T. Ajanthan</strong>, H. Mohaghegh Dolatabadi, G. Avraham, V. Shevchenko, Y. Zuo, C. P. Hewa Koneputugodage, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/mos.pdf">PDF</a><a href="https://arxiv.org/abs/2606.16384" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ramasinghe_mixtures_neurips25">Copy citation</button><pre id="bib-ramasinghe_mixtures_neurips25"><code>@inproceedings{ramasinghe_mixtures_neurips25,
+  title={{Mixtures of Subspaces for Bandwidth Efficient Context Parallel Training}},
+  author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Mohaghegh Dolatabadi, Hadi and Avraham, Gil and Shevchenko, Violetta and Zuo, Yan and P Hewa Koneputugodage, Chamin and Long, Alexander},
+  year={2025},
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/comm/">Communication efficiency</a><a href="/context/">Context parallelism</a><a href="/lowrank/">Low-rank training</a></div>
+  </article><article class="paper" id="ramasinghe_protocol_neurips25" data-paper data-search="subspace networks scaling decentralized training with communication efficient model parallelism sameera ramasinghe s ramasinghe thalaiyasingam ajanthan t ajanthan gil avraham g avraham yan zuo y zuo alexander long a long neurips 2025 conference pl protocol learning compression neural network compression decentralized decentralized training comm communication efficiency pipeline pipeline parallelism lowrank low rank training" data-type="conference" data-topics="pl compression decentralized comm pipeline lowrank" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">NeurIPS</span></div>
+    <h3><a href="/pl/docs/ssn.pdf">Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism</a></h3>
+    <p class="paper-authors">S. Ramasinghe, <strong>T. Ajanthan</strong>, G. Avraham, Y. Zuo, A. Long</p>
+    <div class="paper-actions"><a href="/pl/docs/ssn.pdf">PDF</a><a href="https://arxiv.org/abs/2506.01260" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ramasinghe_protocol_neurips25">Copy citation</button><pre id="bib-ramasinghe_protocol_neurips25"><code>@inproceedings{ramasinghe_protocol_neurips25,
+  title={{Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism}},
+  author={Ramasinghe, Sameera and Ajanthan, Thalaiyasingam and Avraham, Gil and Zuo, Yan and Long, Alexander},
+  year={2025},
+  booktitle={NeurIPS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/decentralized/">Decentralized training</a><a href="/pipeline/">Pipeline parallelism</a><a href="/comm/">Communication efficiency</a><a href="/lowrank/">Low-rank training</a></div>
+  </article></div></section><section class="year-group" data-year-group aria-labelledby="year-2022"><h2 id="year-2022" class="year-heading">2022</h2><div class="paper-list"><article class="paper" id="gupta_iga_aaai22" data-paper data-search="improved gradient based adversarial attacks for quantized networks kartik gupta k gupta thalaiyasingam ajanthan t ajanthan aaai 2022 conference compression neural network compression vision vision representation learning nnq neural network quantization quantization robustness adversarial robustness" data-type="conference" data-topics="compression vision nnq robustness" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">AAAI</span></div>
+    <h3><a href="/nnq/docs/iga.pdf">Improved Gradient based Adversarial Attacks for Quantized Networks</a></h3>
+    <p class="paper-authors">K. Gupta, <strong>T. Ajanthan</strong></p>
+    <div class="paper-actions"><a href="/nnq/docs/iga.pdf">PDF</a><a href="https://arxiv.org/abs/2003.13511" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="gupta_iga_aaai22">Copy citation</button><pre id="bib-gupta_iga_aaai22"><code>@inproceedings{gupta_iga_aaai22,
+  title={{Improved Gradient based Adversarial Attacks for Quantized Networks}},
+  author={Gupta, Kartik and Ajanthan, Thalaiyasingam},
+  year={2022},
+  booktitle={AAAI}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/nnq/">Quantization</a><a href="/robustness/">Adversarial robustness</a></div>
+  </article></div></section><section class="year-group" data-year-group aria-labelledby="year-2021"><h2 id="year-2021" class="year-heading">2021</h2><div class="paper-list"><article class="paper" id="lee_dataparallelism_iclr21" data-paper data-search="understanding the effects of data parallelism and sparsity on neural network training namhoon lee n lee thalaiyasingam ajanthan t ajanthan philip hs torr p h torr martin jaggi m jaggi iclr 2021 conference nno learning dynamics optimization compression neural network compression dlt learning dynamics nnp neural network pruning pruning" data-type="conference" data-topics="nno compression dlt nnp" data-author-roles="">
+    <div class="paper-meta"><span class="paper-venue">ICLR</span></div>
+    <h3><a href="/nnp/docs/dataparallelism.pdf">Understanding the Effects of Data Parallelism and Sparsity on Neural Network Training</a></h3>
+    <p class="paper-authors">N. Lee, <strong>T. Ajanthan</strong>, P. H. Torr, M. Jaggi</p>
+    <div class="paper-actions"><a href="/nnp/docs/dataparallelism.pdf">PDF</a><a href="https://arxiv.org/abs/2003.11316" target="_blank" rel="noopener noreferrer">arXiv</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="lee_dataparallelism_iclr21">Copy citation</button><pre id="bib-lee_dataparallelism_iclr21"><code>@inproceedings{lee_dataparallelism_iclr21,
+  title={{Understanding the Effects of Data Parallelism and Sparsity on Neural Network Training}},
+  author={Lee, Namhoon and Ajanthan, Thalaiyasingam and Torr, Philip HS and Jaggi, Martin},
+  year={2021},
+  booktitle={ICLR}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/nnp/">Pruning</a><a href="/dlt/">Learning dynamics</a></div>
+  </article><article class="paper" id="ajanthan_mdnnq_aistats21" data-paper data-search="mirror descent view for neural network quantization thalaiyasingam ajanthan t ajanthan kartik gupta k gupta philip hs torr p h torr richard hartley r hartley puneet k dokania p k dokania aistats 2021 conference nno learning dynamics optimization compression neural network compression dlt learning dynamics nnq neural network quantization quantization" data-type="conference" data-topics="nno compression dlt nnq" data-author-roles="first">
+    <div class="paper-meta"><span class="paper-venue">AISTATS</span></div>
+    <h3><a href="/nnq/docs/mdnnq.pdf">Mirror Descent View for Neural Network Quantization</a></h3>
+    <p class="paper-authors"><strong>T. Ajanthan</strong><sup>*</sup>, K. Gupta<sup>*</sup>, P. H. Torr, R. Hartley, P. K. Dokania</p>
+    <div class="paper-actions"><a href="/nnq/docs/mdnnq.pdf">PDF</a><a href="https://arxiv.org/abs/1910.08237" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/kartikgupta-at-anu/md-bnn" target="_blank" rel="noopener noreferrer">Code</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ajanthan_mdnnq_aistats21">Copy citation</button><pre id="bib-ajanthan_mdnnq_aistats21"><code>@inproceedings{ajanthan_mdnnq_aistats21,
+  title={{Mirror Descent View for Neural Network Quantization}},
+  author={Ajanthan, Thalaiyasingam and Gupta, Kartik and Torr, Philip HS and Hartley, Richard and Dokania, Puneet K},
+  year={2021},
+  booktitle={AISTATS}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/nnq/">Quantization</a><a href="/dlt/">Learning dynamics</a></div>
+  </article></div></section><section class="year-group" data-year-group aria-labelledby="year-2020"><h2 id="year-2020" class="year-heading">2020</h2><div class="paper-list"><article class="paper" id="lee_disnip_iclr20" data-paper data-search="a signal propagation perspective for pruning neural networks at initialization namhoon lee n lee thalaiyasingam ajanthan t ajanthan stephen gould s gould philip hs torr p h torr iclr 2020 conference spotlight nno learning dynamics optimization compression neural network compression spnn signal propagation nnp neural network pruning pruning" data-type="conference" data-topics="nno compression spnn nnp" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">ICLR</span><span class="distinction">spotlight</span></div>
+    <h3><a href="/nnp/docs/disnip.pdf">A Signal Propagation Perspective for Pruning Neural Networks at Initialization</a></h3>
+    <p class="paper-authors">N. Lee, <strong>T. Ajanthan</strong>, S. Gould, P. H. Torr</p>
+    <div class="paper-actions"><a href="/nnp/docs/disnip.pdf">PDF</a><a href="https://arxiv.org/abs/1906.06307" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/namhoonlee/spp-public" target="_blank" rel="noopener noreferrer">Code</a><a href="https://iclr.cc/virtual_2020/poster_HJeTo2VFwH.html" target="_blank" rel="noopener noreferrer">Video</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="lee_disnip_iclr20">Copy citation</button><pre id="bib-lee_disnip_iclr20"><code>@inproceedings{lee_disnip_iclr20,
+  title={{A Signal Propagation Perspective for Pruning Neural Networks at Initialization}},
+  author={Lee, Namhoon and Ajanthan, Thalaiyasingam and Gould, Stephen and Torr, Philip HS},
+  year={2020},
+  booktitle={ICLR}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/nnp/">Pruning</a><a href="/spnn/">Signal propagation</a></div>
+  </article><article class="paper" id="xu_ranp_3dv20" data-paper data-search="ranp resource aware neuron pruning at initialization for 3d cnns zhiwei xu z xu thalaiyasingam ajanthan t ajanthan vibhav vineet v vineet richard hartley r hartley 3dv 2020 conference oral best student paper compression neural network compression nnp neural network pruning pruning" data-type="conference" data-topics="compression nnp" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">3DV</span><span class="distinction">oral</span><span class="distinction">Best Student Paper</span></div>
+    <h3><a href="/nnp/docs/ranp.pdf">RANP: Resource Aware Neuron Pruning at Initialization for 3D CNNs</a></h3>
+    <p class="paper-authors">Z. Xu, <strong>T. Ajanthan</strong>, V. Vineet, R. Hartley</p>
+    <div class="paper-actions"><a href="/nnp/docs/ranp.pdf">PDF</a><a href="https://arxiv.org/abs/2010.02488" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/zwxu064/RANP" target="_blank" rel="noopener noreferrer">Code</a><a href="https://www.youtube.com/watch?v=KadydhOJnBE&amp;t=71s&amp;ab_channel=RabbitDoResearch" target="_blank" rel="noopener noreferrer">Video</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="xu_ranp_3dv20">Copy citation</button><pre id="bib-xu_ranp_3dv20"><code>@inproceedings{xu_ranp_3dv20,
+  title={{RANP: Resource Aware Neuron Pruning at Initialization for 3D CNNs}},
+  author={Xu, Zhiwei and Ajanthan, Thalaiyasingam and Vineet, Vibhav and Hartley, Richard},
+  year={2020},
+  booktitle={3DV}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/nnp/">Pruning</a></div>
+  </article></div></section><section class="year-group" data-year-group aria-labelledby="year-2019"><h2 id="year-2019" class="year-heading">2019</h2><div class="paper-list"><article class="paper" id="lee_snip_iclr19" data-paper data-search="snip single shot network pruning based on connection sensitivity namhoon lee n lee thalaiyasingam ajanthan t ajanthan philip hs torr p h torr iclr 2019 conference 2000 citations compression neural network compression nnp neural network pruning pruning" data-type="conference" data-topics="compression nnp" data-author-roles="supervision">
+    <div class="paper-meta"><span class="paper-venue">ICLR</span><span class="distinction citation-badge" aria-label="2000+ citations">2000+ citations</span></div>
+    <h3><a href="/nnp/docs/snip.pdf">SNIP: Single-shot Network Pruning based on Connection Sensitivity</a></h3>
+    <p class="paper-authors">N. Lee, <strong>T. Ajanthan</strong>, P. H. Torr</p>
+    <div class="paper-actions"><a href="/nnp/docs/snip.pdf">PDF</a><a href="https://arxiv.org/abs/1810.02340" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/namhoonlee/snip-public" target="_blank" rel="noopener noreferrer">Code</a><a href="/nnp/docs/snip-poster.pdf">Slides</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="lee_snip_iclr19">Copy citation</button><pre id="bib-lee_snip_iclr19"><code>@inproceedings{lee_snip_iclr19,
+  title={{SNIP: Single-shot Network Pruning based on Connection Sensitivity}},
+  author={Lee, Namhoon and Ajanthan, Thalaiyasingam and Torr, Philip HS},
+  year={2019},
+  booktitle={ICLR}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/nnp/">Pruning</a></div>
+  </article><article class="paper" id="ajanthan_pmf_iccv19" data-paper data-search="proximal mean field for neural network quantization thalaiyasingam ajanthan t ajanthan puneet k dokania p k dokania richard hartley r hartley philip hs torr p h torr iccv 2019 conference nno learning dynamics optimization compression neural network compression dlt learning dynamics nnq neural network quantization quantization" data-type="conference" data-topics="nno compression dlt nnq" data-author-roles="first">
+    <div class="paper-meta"><span class="paper-venue">ICCV</span></div>
+    <h3><a href="/nnq/docs/pmf.pdf">Proximal Mean-field for Neural Network Quantization</a></h3>
+    <p class="paper-authors"><strong>T. Ajanthan</strong>, P. K. Dokania, R. Hartley, P. H. Torr</p>
+    <div class="paper-actions"><a href="/nnq/docs/pmf.pdf">PDF</a><a href="https://arxiv.org/abs/1812.04353" target="_blank" rel="noopener noreferrer">arXiv</a><a href="https://github.com/tajanthan/pmf" target="_blank" rel="noopener noreferrer">Code</a><a href="/nnq/docs/pmf-poster.pdf">Slides</a><details class="bibtex"><summary>BibTeX</summary><div class="bibtex-inner"><button type="button" class="copy-bibtex" data-copy-bibtex="ajanthan_pmf_iccv19">Copy citation</button><pre id="bib-ajanthan_pmf_iccv19"><code>@inproceedings{ajanthan_pmf_iccv19,
+  title={{Proximal Mean-field for Neural Network Quantization}},
+  author={Ajanthan, Thalaiyasingam and Dokania, Puneet K and Hartley, Richard and Torr, Philip HS},
+  year={2019},
+  booktitle={ICCV}
+}</code></pre></div></details></div>
+    <div class="topic-tags"><a href="/nnq/">Quantization</a><a href="/dlt/">Learning dynamics</a></div>
+  </article></div></section>
+    </div>
+    <footer class="site-footer"><span>© Thalaiyasingam Ajanthan</span></footer>
+  </main>
+</body>
+</html>

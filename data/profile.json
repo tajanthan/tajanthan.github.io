@@ -1,0 +1,174 @@
+{
+  "name": "Thalaiyasingam Ajanthan",
+  "shortName": "Ajanthan (AJ)",
+  "role": "Founding Scientist",
+  "sidebarRole": "Founding Scientist, Research Lead",
+  "affiliation": "Pluralis Research",
+  "secondaryRole": "Visiting Researcher",
+  "secondaryAffiliation": "Australian National University",
+  "location": "Canberra, Australia",
+  "field": "Optimization & machine learning",
+  "intro": "Making collective geo-distributed training of foundational models robust and practical.",
+  "bio": "I lead research at Pluralis, where we are making collective geo-distributed training of foundation models practical.",
+  "background": [
+    {
+      "title": "Machine Learning Scientist → Senior Machine Learning Scientist",
+      "organization": "Amazon Australia",
+      "url": "https://www.amazon.science/",
+      "detail": "2020–2024"
+    },
+    {
+      "title": "Postdoctoral Research Fellow",
+      "organization": "Australian Centre for Robotic Vision, ANU",
+      "url": "https://www.anu.edu.au/",
+      "detail": "2019–2020"
+    },
+    {
+      "title": "Postdoctoral Research Fellow",
+      "organization": "Torr Vision Group, University of Oxford",
+      "url": "https://torrvision.com/index.html",
+      "detail": "2017–2019"
+    },
+    {
+      "title": "PhD",
+      "organization": "Australian National University",
+      "url": "https://www.anu.edu.au/",
+      "detail": "2014–2017"
+    }
+  ],
+  "collaborators": [
+    { "name": "Philip H. S. Torr", "url": "https://eng.ox.ac.uk/people/philip-torr" },
+    { "name": "Richard Hartley", "url": "https://comp.anu.edu.au/people/richard-hartley/" },
+    { "name": "Stephen Gould", "url": "https://users.cecs.anu.edu.au/~sgould/" },
+    { "name": "Anton van den Hengel", "url": "https://cs.adelaide.edu.au/~hengel/" },
+    { "name": "Hongdong Li", "url": "https://comp.anu.edu.au/people/hongdong-li/" },
+    { "name": "Mathieu Salzmann", "url": "https://people.epfl.ch/119864?lang=en" },
+    { "name": "M. Pawan Kumar", "url": "https://www.ellis.ox.ac.uk/people/m-pawan-kumar" },
+    { "name": "Puneet K. Dokania", "url": "https://puneetdokania.github.io/" },
+    { "name": "Martin Jaggi", "url": "https://people.epfl.ch/martin.jaggi?lang=en" }
+  ],
+  "mentoring": {
+    "intro": "I’ve mentored researchers across academia and industry and some of the names are listed below.",
+    "people": [
+      { "name": "Evan Markou", "url": "https://evanmarkou.github.io/", "detail": "Apr 2023–present · ANU" },
+      { "name": "Kartik Gupta", "url": "https://scholar.google.com/citations?user=MmzE22cAAAAJ&hl=en", "detail": "Feb 2019–Sep 2021 · ANU, then Seeing Machines" },
+      { "name": "Namhoon Lee", "url": "https://www.robots.ox.ac.uk/~namhoon/", "detail": "Feb 2018–Oct 2020 · Oxford, then UNIST" },
+      { "name": "Zhiwei Xu", "url": "https://zwxu064.github.io/", "detail": "Jan 2019–May 2021 · ANU, then Postdoc" },
+      { "name": "Amir Rahimi", "url": "https://amir-rahimi.github.io/", "detail": "Feb 2019–Nov 2020 · ANU, then MIT" },
+      { "name": "Yao Lu", "url": "https://yaolubrain.github.io/", "detail": "Aug 2019–Nov 2020 · ANU, then Peking University" },
+      { "name": "Arslan Chaudhry", "url": "https://arslan-chaudhry.github.io/", "detail": "Aug 2017–Dec 2018 · Oxford, then DeepMind" },
+      { "name": "Alessio Tonioni", "url": "https://alessiotonioni.github.io/", "detail": "May–Nov 2018 · Oxford, then Google" }
+    ],
+    "interns": [
+      { "name": "Chamin Hewa Koneputugodage", "url": "https://au.linkedin.com/in/chamin-hewa-koneputugodage-b3ba17148", "detail": "2025 · Pluralis Research, then Research Scientist" },
+      { "name": "Ziwei Wang", "url": "https://www.amazon.science/publications/learning-visual-hierarchies-in-hyperbolic-space-for-image-retrieval", "detail": "2024 · Amazon, then Waymo" },
+      { "name": "Yiqun Duan", "url": "https://www.linkedin.com/in/yiqun-duan-b9a670128/", "detail": "2024 · Amazon, then Meta" },
+      { "name": "Peixia Li", "url": "https://lpxtt.github.io/", "detail": "2022 · Amazon, then Applied Scientist" }
+    ]
+  },
+  "service": {
+    "teaching": [
+      { "title": "Guest Lecturer, Computer Systems and Architecture (ANU, 2026)", "url": "https://programsandcourses.anu.edu.au/2026/course/COMP8045/Second%20Semester/9013" },
+      { "title": "Convener & Lecturer, Computer Vision (ANU, 2020)", "url": "https://programsandcourses.anu.edu.au/2020/course/ENGN6528" }
+    ],
+    "workshops": [
+      { "title": "CODEC-FM · NeurIPS 2026", "url": "https://collaborative-open-decentralized-fomo.github.io/" },
+      { "title": "Protocol Learning · ICML 2026 (Pluralis)", "url": "https://pluralis.ai/events/icml-protocol-learning-workshop/" },
+      { "title": "Protocol Learning · ICLR 2026 (Pluralis)", "url": "https://pluralis.ai/events/protocol-learning-workshop/" }
+    ],
+    "recognition": [
+      "Area Chair, BMVC 2022",
+      "Outstanding Reviewer, ECCV 2020 · ICLR 2021 · NeurIPS 2025"
+    ]
+  },
+  "talks": [
+    {
+      "event": "ICOMP 2026 & ASCOMP 2026",
+      "eventUrl": "https://icomp.cc/",
+      "date": "November 2026",
+      "year": 2026,
+      "location": "Casablanca, Morocco",
+      "sessions": [
+        { "title": "Distributed Optimization Beyond the Datacenter: Communication, Compression, and Asynchrony", "slides": "/talks/ascomp-2026.pdf" },
+        { "title": "Protocol Learning: Collective Training of Foundation Models over the Internet", "slides": "/talks/icomp-2026.pdf" }
+      ]
+    },
+    {
+      "event": "Workshop on Distributed Training in the Era of Large Models",
+      "eventUrl": "https://www.kaust.edu.sa/events/dtelm25/",
+      "date": "November 2025",
+      "year": 2025,
+      "title": "Communication Efficient Model Parallel Training of Language Models",
+      "url": "https://youtu.be/-tjdLaDxYsQ",
+      "location": "Thuwal, Saudi Arabia",
+      "videoLabel": "Slides"
+    }
+  ],
+  "notes": [
+    {
+      "topic": "ICOMP 2026 · reflections",
+      "postUrl": "https://x.com/tha_ajanthan/status/2120780886723690587",
+      "date": "2026-11",
+      "content": "A few personal highlights from ICOMP 2026 in Casablanca. I got to see legends like Michael Jordan and Anatoli Juditsky in person and share the stage with them. Anatoli’s talk on the ellipsoid algorithm and linear programming was so refreshing and took me back to my PhD days. MJ raised some thought-provoking points about how to think about intelligence.\n\nJust as memorable were long conversations about optimization methods, local-step methods, hybrid models, and protocol learning. Thanks to the organizers for the invitation and a great time in Casablanca.",
+      "mediaUrl": "/images/pulse/icomp-2026-stage.jpg",
+      "mediaWidth": 1280,
+      "mediaHeight": 720,
+      "mediaAlt": "Ajanthan speaking at ICOMP 2026 in Casablanca, with distributed optimization slides on screen",
+      "resourceUrl": "https://icomp.cc/"
+    },
+    {
+      "topic": "Training beyond datacenters",
+      "postUrl": "https://x.com/tha_ajanthan/status/2117311378948075896",
+      "date": "2026-11",
+      "content": "Very nice write up on training on compute islands. Also it briefly covers some essential techniques for low-bandwidth training. I believe \"beyond datacenter distributed training\" is a spectrum and inter-datacenter (eg, this one, decoupled diloco) is on one side and training on heterogeneous consumer devices (eg, Agora) is on the other extreme. Good to see more efforts in this.",
+      "resourceUrl": "https://www.coreauto.com/hitchhikers-guide-to-training-on-compute-islands"
+    },
+    {
+      "topic": "Protocol NanoGPT",
+      "postUrl": "https://x.com/tha_ajanthan/status/2114843754758812113",
+      "date": "2026-10",
+      "content": "Almost two orders of magnitude faster than the vanilla baseline. Looking forward to seeing who gets it under 1 hour and how.",
+      "mediaUrl": "/images/pulse/protocol-nanogpt.jpg",
+      "mediaWidth": 1624,
+      "mediaHeight": 916,
+      "mediaAlt": "Protocol NanoGPT benchmark chart showing training time falling to about 1 hour 40 minutes with compressed, overlapped pipeline communication",
+      "resourceUrl": "https://pluralis.ai/protocol-nanogpt/"
+    },
+    {
+      "topic": "Peer review",
+      "postUrl": "https://x.com/tha_ajanthan/status/2102306833876803927",
+      "date": "2026-09",
+      "content": "I've been reading a lot of these suggestions and thinking about this. I think we should accept all papers that are correct and meets a minimum quality bar (claims are correct, experiments validate the claims, and the paper is correctly positioned in the literature and pushes the boundary in some aspect) without presentation in a conference.\n\nThis process could be automated with AI-agents (there may be some noise which is fine) and human peer-review is only used to select papers from this accepted pool for poster/oral presentations in a conference. This should incentivize people to submit high-quality work so that they get presentations and not a mere accept -- which precludes them from submitting somewhere else reducing the burden on authors and reviewers. Also, we could make it mandatory that all papers with experiments should have the code to reproduce the results and AI-agents verify this and there could be random audits (due to high cost of ML experiments) which actually run the code and flag any submissions which cannot be reproduced and the authors' credibility will be affected (eg., display stats on their google scholar profile).\n\nFinally, we should also classify AI-written papers which meets the above quality bar and have a separate venue for them (eg., in open review or a new arxiv for AI-papers). This allows AI discoveries to be published quickly but not contaminate other conferences and allows the field to move faster if any such discoveries are useful."
+    },
+    {
+      "topic": "Agora · systems test",
+      "postUrl": "https://x.com/tha_ajanthan/status/2095737264659947943",
+      "date": "2026-09",
+      "content": "We did a system test at 13B with substantial changes to Agora to make it more efficient and cheaper. We now want to see its scalability (in no of participants) and where it breaks.",
+      "resourceUrl": "https://pluralis.ai/docs/quick-start"
+    },
+    {
+      "topic": "Open model development",
+      "postUrl": "https://x.com/tha_ajanthan/status/2080723708516438385",
+      "date": "2026-07",
+      "content": "Completely agree with the sentiment. However, one aspect that is overlooked is when the model provider gives away the weights for free, they lose the financial incentive (at least partially).\n\nThis is where we think the real gap is and we require economically sustainable open model development. This is the mission of @Pluralis",
+      "resourceUrl": "https://pluralis.ai/"
+    },
+    {
+      "topic": "Open-source AI · RL on Macs",
+      "postUrl": "https://x.com/tha_ajanthan/status/2077586899179598007",
+      "date": "2026-07",
+      "content": "RL roll-outs on Macs! Imagine the compute this unlocks with idle Macs around the world. Excellent work Erfan!",
+      "resourceUrl": "https://pluralis.ai/blog/rl-post-training-on-macs/"
+    }
+  ],
+  "contact": {
+    "emailDisplay": "ajaneng {at} gmail {dot} com",
+    "links": [
+      { "label": "Google Scholar", "url": "https://scholar.google.com.au/citations?user=Rza8c10AAAAJ&hl=en" },
+      { "label": "GitHub", "url": "https://github.com/tajanthan" },
+      { "label": "LinkedIn", "url": "https://au.linkedin.com/in/thalaiyasingamajanthan" },
+      { "label": "X", "url": "https://x.com/tha_ajanthan" }
+    ]
+  }
+}
